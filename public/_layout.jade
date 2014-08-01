@@ -1,0 +1,9 @@
+!!!
+html(lang="en")
+  head
+    != partial("_shared/head")
+  body
+    != partial("_shared/header")
+    main.container(role="main")
+      != yield
+    != partial("_shared/footer")

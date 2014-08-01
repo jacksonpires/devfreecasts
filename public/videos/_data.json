@@ -1,0 +1,24 @@
+{
+  "go": {
+    "title": "Go",
+    "about": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "site": "http://golang.org",
+    "repository": "https://code.google.com/p/go/", 
+    "videos": [
+      {
+        "title": "Getting Started with Go",
+        "description": "How to setup your environment and write a Hello World application using the Go programming language created by Google.",
+        "image": "",
+        "duration": "3:14",
+        "url": "https://gophercasts.io/lessons/1-getting-started-with-go"
+      },
+      {
+        "title": "Go Language Basics",
+        "description": "In this episode Jeremy covers the basics of variables, functions and loops in Go.",
+        "image": "",
+        "duration": "5:49",
+        "url": "https://gophercasts.io/lessons/2-go-language-basics"
+      }
+    ]
+  }
+}
