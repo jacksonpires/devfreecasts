@@ -6,7 +6,7 @@ A huge collection about free screencasts for devs.
 
 ## How to add screencasts?
 
-Before start it, all videos you add must be freeware, because no one here wanna pay to watch it :) 
+*Before start it, all videos you add must be freeware*, because no one here wanna pay to watch it :) 
 
 First of all you need to [fork this repository](https://github.com/caio-ribeiro-pereira/devscreencasts/fork). 
 
@@ -36,7 +36,7 @@ With this project in your hands, edit the `/public/videos/_data.json` and add yo
 },
 ```
 
-Obs.: All image must be an jpeg/jpg with 350x195 size. If you don't add an `partners.image` attribute the default language image will replace it.
+Obs.: *All image must be an jpeg/jpg with 350x195 size*. If you don't add an `partners.image` attribute the *default language image will replace it*.
 
 Look this example:
 
@@ -90,7 +90,7 @@ If you don't have website, but you have youtube or vimeo screencasts, just add y
 
 ## Development mode
 
-To run this project in development mode, you need have [Node.js](http://nodejs.org) and [HarpJS](http://harpjs.com) installed.
+To run this project in *development mode*, you need have [Node.js](http://nodejs.org) and [HarpJS](http://harpjs.com) installed.
 
 To install Node.js, just [follow this wiki rules](http://nodejs.org/download)
 
