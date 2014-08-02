@@ -88,6 +88,28 @@ If you don't have website, but you have youtube or vimeo screencasts, just add y
 },
 ```
 
+## Development mode
+
+To run this project in development mode, you need have [Node.js](http://nodejs.org) and (HarpJS)[http://harpjs.com] installed.
+
+To install Node.js, just (follow this wiki rules)[http://nodejs.org/download]
+
+To install HarpJS, just run the command below:
+
+``` bash
+npm install harp -g
+```
+
+To get and run this project:
+
+``` bash
+git clone git@github.com:caio-ribeiro-pereira/devscreencasts.git
+cd devscreencasts
+harp server
+```
+
+And access in your browser the url: http://localhost:9000
+
 ## Author
 
 Caio Ribeiro Pereira - [@crp_underground](http://twitter.com/crp_underground)
