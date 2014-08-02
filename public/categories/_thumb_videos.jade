@@ -14,8 +14,5 @@ div.row
           div.caption
             h3 #{video.title}
             p.video-description #{video.description}
-            if partner.site_url && partner.site
-              p.video-metadata <small>Author: <a href="#{partner.site_url}" target="_blank">#{partner.site}</a> | Duration: #{video.duration}</small>
-            else
-              p.video-metadata <small>Duration: #{video.duration}</small>
+            p.video-metadata Author: <a href="#{partner.site_url}" target="_blank">#{partner.site}</a> | Language: <span class="label label-primary">#{partner.lang.toUpperCase()}</span> | Duration: <span class="label label-primary">#{video.duration}</span>
             p <a href="#{video.url}" class="btn btn-success btn-block" role="button" target="_blank">Watch</a>
