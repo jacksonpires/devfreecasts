@@ -21,6 +21,48 @@
             "description": "In this episode Jeremy covers the basics of variables, functions and loops in Go.",
             "duration": "5:49",
             "url": "https://gophercasts.io/lessons/2-go-language-basics"
+          },
+          {
+            "title": "Martini and Markdown",
+            "description": "In this episode Jeremy builds a simple Martini web application that parses and presents Markdown.",
+            "duration": "5:23",
+            "url": "https://gophercasts.io/lessons/3-martini-and-markdown"
+          },
+          {
+            "title": "Postgres: Basics",
+            "description": "In this episode Jeremy covers how to setup and connect to a Postgres database with Go.",
+            "duration": "6:23",
+            "url": "https://gophercasts.io/lessons/4-postgres-basics"
+          },
+          {
+            "title": "HTML Templates",
+            "description": "Jeremy makes his books output prettier by using Bootstrap and HTML Templates.",
+            "duration": "4:18",
+            "url": "https://gophercasts.io/lessons/5-html-templates"
+          },
+          {
+            "title": "Postgres: Inserting Data",
+            "description": "Jeremy continues with his Martini web application and adds the ability to insert book data into the database.",
+            "duration": "3:34",
+            "url": "https://gophercasts.io/lessons/6-postgres-inserting-data"
+          },
+          {
+            "title": "Auth: Part 1",
+            "description": "Jeremy covers basic authentication with Martini.",
+            "duration": "4:35",
+            "url": "https://gophercasts.io/lessons/7-auth-part-1"
+          },
+          {
+            "title": "Auth: Part 2",
+            "description": "Jeremy covers basic authentication with Martini.",
+            "duration": "4:49",
+            "url": "https://gophercasts.io/lessons/8-auth-part-2"
+          },
+          {
+            "title": "Auth: Part 3",
+            "description": "Jeremy covers basic authentication with Martini.",
+            "duration": "5:28",
+            "url": "https://gophercasts.io/lessons/9-auth-part-3"
           }
         ]
       }
@@ -31,6 +73,62 @@
     "about": "Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.",
     "site": "http://nodejs.org",
     "partners": [
+      {
+        "site" : "egghead",
+        "site_url": "https://egghead.io",
+        "image": "egghead.jpg",
+        "videos": [
+          {
+            "title": "Introduction to Browserify",
+            "description": "Browserify is a tool that brings node.js style development to the browser.",
+            "duration": "4:37",
+            "url": "https://egghead.io/lessons/nodejs-introduction-to-browserify-part-1"
+          },
+          {
+            "title": "npm init",
+            "description": "The command npm init provides an interactive step-by-step interface for creating a package.json",
+            "duration": "1:29",
+            "url": "https://egghead.io/lessons/nodejs-npm-init"
+          },
+          {
+            "title": "CommonJS Basics Introduction",
+            "description": "CoomonJS modules provide a clean syntax for importing dependencies. This lesson will take a look at the basics of using CommonJS modules.",
+            "duration": "3:18",
+            "url": "https://egghead.io/lessons/nodejs-commonjs-basics-introduction"
+          },
+          {
+            "title": "What are CommonJS Modules?",
+            "description": "CommonJS modules provide a clean way to import dependencies in JavaScript.",
+            "duration": "3:02",
+            "url": "https://egghead.io/lessons/nodejs-what-are-commonjs-modules"
+          },
+          {
+            "title": "Migrate to Express 4",
+            "description": "This lesson will explain some of the main breaking changes between Express 3 and Express 4.",
+            "duration": "1:58",
+            "url": "https://egghead.io/lessons/nodejs-migrate-to-express-4"
+          },
+          {
+            "title": "First API with Node.js, Express and MongoDB",
+            "description": "Learn how to import data into your MongoDB and then use Express to serve a simple Node.js API.",
+            "duration": "6:44",
+            "url": "https://egghead.io/lessons/nodejs-first-api-with-node-js-express-and-mongodb"
+          }
+        ]
+      },
+      {
+        "site" : "TagTree",
+        "site_url": "http://tagtree.tv",
+        "image": "tagtree.jpg",
+        "videos": [
+          {
+            "title": "Node Streams",
+            "description": "You've heard a lot about node streams, in this episode you get introduced to streams and see how to code up your own read, write, and transform stream.",
+            "duration": "8:28",
+            "url": "http://tagtree.tv/intro-to-node-streams"
+          }
+        ]
+      },
       {
         "site" : "NodeCasts",
         "site_url": "http://nodecasts.net",
@@ -47,6 +145,24 @@
             "description": "We'll learn out how to install Node.js, as well as how to maintain different Node versions using NVM. We'll also build a basic HTTP server.",
             "duration": "7:30",
             "url": "http://nodecasts.net/episodes/2-nodejs-first-steps"
+          },
+          {
+            "title": "Modules",
+            "description": "Modules are the building blocks of Node.js applications. Find out how to use them and how to create your own.",
+            "duration": "7:25",
+            "url": "http://nodecasts.net/episodes/3-modules"
+          },
+          {
+            "title": "Packages and NPM",
+            "description": "Packages allow programmers to share their modules with the world. Find out how to use npm to install packages and manage package dependencies.",
+            "duration": "8:53",
+            "url": "http://nodecasts.net/episodes/4-packages-and-npm"
+          },
+          {
+            "title": "Thinking Asynchronously",
+            "description": "This talk is about some common patterns and pitfalls for working in an asynchronous environment.",
+            "duration": "12:31",
+            "url": "http://nodecasts.net/episodes/5-thinking-asynchronously"
           }
         ]
       }
