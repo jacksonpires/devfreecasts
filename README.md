@@ -13,12 +13,12 @@ First of all you need to [fork this repository](https://github.com/caio-ribeiro-
   "subtitle": "Programming language name",
   "about": "Programming language short description",
   "site": "url of the official programming language site", 
-  "image": "programming-language-logo.jpg", // Must be an jpg with 350x195 size.
+  "image": "programming-language-logo.jpg",
   "partners": [
     {
       "site" : "Screencast site name",
       "site_url": "url of the screencast site",
-      "image": "screencast site logo.jpg", // Must be an jpg with 350x195 size.
+      "image": "screencast site logo.jpg",
       "videos": [
         {
           "title": "Screencast title",
@@ -31,6 +31,8 @@ First of all you need to [fork this repository](https://github.com/caio-ribeiro-
   ]
 },
 ```
+
+Obs.: All image must be an jpeg/jpg with 350x195 size. If you don't add an `partners.image` attribute the default language image will replace it.
 
 Look this example:
 
@@ -58,9 +60,33 @@ Look this example:
 },
 ```
 
+If you don't have website, but you have youtube or vimeo screencasts, just add your videos without the `partners.site` and `partners.site_url`, like the example below:
+
+``` javascript
+"go": {
+  "subtitle": "Go",
+  "about": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+  "site": "http://golang.org",
+  "image": "go.jpg",
+  "partners": [
+    {
+      "image": "gophercasts.jpg",
+      "videos": [
+        {
+          "title": "Getting Started with Go",
+          "description": "How to setup your environment and write a Hello World application using the Go programming language.",
+          "duration": "3:14",
+          "url": "https://gophercasts.io/lessons/1-getting-started-with-go"
+        }
+      ]
+    }
+  ]
+},
+```
+
 ## Author
 
-Caio Ribeiro Pereira (caio.ribeiro.pereira@gmail.com)
+Caio Ribeiro Pereira - [@crp_underground](http://twitter.com/crp_underground)
 
 ## License
 
