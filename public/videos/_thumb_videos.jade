@@ -6,9 +6,15 @@ div.row
     each video in partner.videos
       div.col-sm-6.col-md-4
         div.thumbnail
-          img(src="/images/#{partner.image}" class="img-rounded" width="250" height="120")
-          div.caption.text-center
+          if partner.image
+            img(src="/images/#{partner.image}" class="img-rounded" width="250" height="120")
+          else
+            img(src="/images/#{image}" class="img-rounded" width="250" height="120")
+          div.caption
             h3 #{video.title}
             p.video-description #{video.description}
-            p.video-metadata <small>Author: <a href="#{partner.site_url}" target="_blank">#{partner.site}</a> | Duration: #{video.duration}</small>
+            if partner.site_url and partner.site
+              p.video-metadata <small>Author: <a href="#{partner.site_url}" target="_blank">#{partner.site}</a> | Duration: #{video.duration}</small>
+            else
+              p.video-metadata <small>Duration: #{video.duration}</small>
             p <a href="#{video.url}" class="btn btn-success btn-block" role="button" target="_blank">Watch</a>
