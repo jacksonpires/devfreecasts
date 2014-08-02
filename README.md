@@ -21,8 +21,8 @@ With this project in your hands, edit the `/public/categories/_data.json` and ad
       "site" : "Screencast site name or youtube channel",
       "site_url": "url of the screencast site or youtube channel",
       "image": "screencast site logo.jpg",
-      "lang": "screencast language. Ex.: EN, PT-BR, ES.."
-      "publish": true // Publish to devfreecast site
+      "lang": "screencast language. Ex.: EN, PT-BR, ES..",
+      "publish": true, // Publish to devfreecast site
       "videos": [
         {
           "title": "Screencast title",
@@ -51,8 +51,8 @@ Look this example:
       "site" : "GopherCasts",
       "site_url": "https://gophercasts.io",
       "image": "gophercasts.jpg",
-      "lang": "en"
-      "publish": true
+      "lang": "en",
+      "publish": true,
       "videos": [
         {
           "title": "Getting Started with Go",
