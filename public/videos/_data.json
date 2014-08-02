@@ -10,6 +10,8 @@
         "description": "How to setup your environment and write a Hello World application using the Go programming language.",
         "image": "getting-started-with-go.jpg",
         "duration": "3:14",
+        "site" : "GopherCasts",
+        "site_url": "https://gophercasts.io",
         "url": "https://gophercasts.io/lessons/1-getting-started-with-go"
       },
       {
@@ -17,6 +19,8 @@
         "description": "In this episode Jeremy covers the basics of variables, functions and loops in Go.",
         "image": "go-language-basics.jpg",
         "duration": "5:49",
+        "site" : "GopherCasts",
+        "site_url": "https://gophercasts.io",
         "url": "https://gophercasts.io/lessons/2-go-language-basics"
       }
     ]
@@ -32,6 +36,8 @@
         "description": "What is Node.js and why might you want to use it?",
         "image": "introduction-to-nodejs.jpg",
         "duration": "6:40",
+        "site" : "NodeCasts",
+        "site_url": "http://nodecasts.net",
         "url": "http://nodecasts.net/episodes/1-introduction-to-nodejs"
       },
       {
@@ -39,6 +45,8 @@
         "description": "We'll learn out how to install Node.js, as well as how to maintain different Node versions using NVM. We'll also build a basic HTTP server.",
         "image": "nodejs-first-steps.jpg",
         "duration": "7:30",
+        "site" : "NodeCasts",
+        "site_url": "http://nodecasts.net",
         "url": "http://nodecasts.net/episodes/2-nodejs-first-steps"
       }
     ]

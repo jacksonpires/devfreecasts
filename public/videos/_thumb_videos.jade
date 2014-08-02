@@ -1,0 +1,10 @@
+div.row
+  each video in videos
+    div.col-sm-6.col-md-4
+      div.thumbnail
+        img(src="/images/#{video.image}" class="img-rounded" width="250" height="120")
+        div.caption.text-center
+          h3 #{video.title}
+          p(style="height:60px;") #{video.description}
+          p(style="text-align:right;") <small>By: <a href="#{video.site_url}" target="_blank">#{video.site}</a> | Duration: #{video.duration}</small>
+          p <a href="#{video.url}" class="btn btn-success btn-block" role="button" target="_blank">Watch</a>

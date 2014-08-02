@@ -2,12 +2,4 @@ h1 #{subtitle}
 section
   p #{about}
   p Site: <a href="#{site}" target="_blank">#{site}</a>
-div.row
-  each video in videos
-    div.col-sm-6.col-md-4
-      div.thumbnail
-        img(src="/images/#{video.image}" class="img-rounded" width="250" height="120")
-        div.caption.text-center
-          h3 #{video.title}
-          p #{video.description}<br><small>Duration: #{video.duration}</small>
-          p <a href="#{video.url}" class="btn btn-success btn-block" role="button" target="_blank">Watch</a>
+!= partial("_thumb_videos")
