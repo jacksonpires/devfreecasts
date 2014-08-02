@@ -1,4 +1,14 @@
-h3 #{description}
-ul
-  for video, slug in public.videos._data
-    li <a href="/videos/#{ slug }">#{video.subtitle}</a>
+h3.center A huge collection about free screencasts for devs
+section.row
+for category, slug in public.categories._data
+  - total_videos = 0
+  for partner in category.partners
+    - total_videos = total_videos + partner.videos.length
+  div.col-sm-6.col-md-4
+    div.jumbotron
+      figure.jumbotron-photo
+        a(href="/categories/#{slug}")
+          img(src="/images/#{category.image}" width="350" height="195")
+      article.jumbotron-contents
+        p.center
+          a(href="/categories/#{slug}" class="btn btn-block btn-primary") #{category.subtitle} - #{total_videos} DevFreeCasts 
