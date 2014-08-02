@@ -10,6 +10,7 @@
         "site_url": "https://egghead.io",
         "image": "egghead.jpg",
         "lang": "en",
+        "publish": true,
         "videos": [
           {
             "title": "Introduction to Browserify",
@@ -54,6 +55,7 @@
         "site_url": "http://www.youtube.com/user/DevCastVideos",
         "image": "devcast.jpg",
         "lang": "pt-br",
+        "publish": true,
         "videos": [
           {
             "title": "Node.js + MongoDB",
@@ -68,6 +70,7 @@
         "site_url": "http://tagtree.tv",
         "image": "tagtree.jpg",
         "lang": "en",
+        "publish": true,
         "videos": [
           {
             "title": "Node Streams",
@@ -82,6 +85,7 @@
         "site_url": "http://nodecasts.net",
         "image": "nodecasts.jpg",
         "lang": "en",
+        "publish": true,
         "videos": [
           {
             "title": "Introduction to Node.js",
@@ -128,6 +132,7 @@
         "site_url": "https://gorails.com/",
         "image": "gorails.jpg",
         "lang": "en",
+        "publish": false,
         "videos": [
           {
             "title": "Ruby Version Managers",
@@ -156,6 +161,7 @@
         "site_url": "https://gophercasts.io",
         "image": "gophercasts.jpg",
         "lang": "en",
+        "publish": false,
         "videos": [
           {
             "title": "Getting Started with Go",

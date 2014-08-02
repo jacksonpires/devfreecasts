@@ -3,14 +3,17 @@ section.row
 for category, slug in public.categories._data
   - total_videos = 0
   for partner in category.partners
-    - total_videos = total_videos + partner.videos.length
-  div.col-sm-6.col-md-4
-    div.jumbotron
-      figure.jumbotron-photo
-        a(href="/categories/#{slug}")
-          img(src="/images/#{category.image}" width="350" height="195")
-      article.jumbotron-contents
-        p.center
-          a(href="/categories/#{slug}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
+    if partner.publish
+      - total_videos = total_videos + partner.videos.length
+  if total_videos
+    div.col-sm-6.col-md-4
+      div.jumbotron
+        figure.jumbotron-photo
+          a(href="/categories/#{slug}")
+            img(src="/images/#{category.image}" width="350" height="195")
+        article.jumbotron-contents
+          p.center
+            a(href="/categories/#{slug}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
 section.row
-  p.center Wanna add your screencasts here? <a href="https://github.com/caio-ribeiro-pereira/devfreecasts/blob/master/README.md#how-to-add-screencasts" target="_blank">Just follow this simple rules...</a>
+  div.col-sm-12
+    p.center Wanna add your screencasts here? <a href="https://github.com/caio-ribeiro-pereira/devfreecasts/blob/master/README.md#how-to-add-screencasts" target="_blank">Just follow this simple rules...</a>
