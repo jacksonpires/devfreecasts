@@ -1,8 +1,6 @@
 # DevFreeCasts
 
-## About
-
-A huge collection about free screencasts for devs.
+A huge collection of free screencasts for devs.
 
 ## How to add screencasts?
 
