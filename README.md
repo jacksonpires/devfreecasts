@@ -6,14 +6,15 @@ A huge collection about free screencasts for devs.
 
 ## How to add screencasts?
 
+Before start it, all videos you add must be freeware, because no one here wanna pay to watch it :) 
 First of all you need to [fork this repository](https://github.com/caio-ribeiro-pereira/devscreencasts/fork). With this project in your hands, edit the `/public/videos/_data.json` and add your videos respecting these parameters: 
 
 ``` javascript
-"programming-language-name": {
-  "subtitle": "Programming language name",
-  "about": "Programming language short description",
-  "site": "url of the official programming language site", 
-  "image": "programming-language-logo.jpg",
+"programming-language-or-framework-name": {
+  "subtitle": "Programming language or framework name",
+  "about": "Programming language or framework short description",
+  "site": "url of the official programming language or framework site", 
+  "image": "programming-language-or-framework-logo.jpg",
   "partners": [
     {
       "site" : "Screencast site name",
