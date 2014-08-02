@@ -8,7 +8,7 @@ A huge collection of free screencasts for devs.
 
 First of all you need to [fork this repository](https://github.com/caio-ribeiro-pereira/devfreecasts/fork). 
 
-With this project in your hands, edit the `/public/videos/_data.json` and add your videos respecting these parameters: 
+With this project in your hands, edit the `/public/categories/_data.json` and add your videos respecting these parameters: 
 
 ``` javascript
 "programming-language-or-framework-name": {
@@ -18,9 +18,11 @@ With this project in your hands, edit the `/public/videos/_data.json` and add yo
   "image": "programming-language-or-framework-logo.jpg",
   "partners": [
     {
-      "site" : "Screencast site name",
-      "site_url": "url of the screencast site",
+      "site" : "Screencast site name or youtube channel",
+      "site_url": "url of the screencast site or youtube channel",
       "image": "screencast site logo.jpg",
+      "lang": "screencast language. Ex.: EN, PT-BR, ES.."
+      "publish": true // Publish to devfreecast site
       "videos": [
         {
           "title": "Screencast title",
@@ -34,7 +36,7 @@ With this project in your hands, edit the `/public/videos/_data.json` and add yo
 },
 ```
 
-Obs.: **All image must be an jpeg/jpg with 350x195 size**. If you don't add an `partners.image` attribute the **default language image will replace it**.
+Obs.: **All image must be an jpeg/jpg with 350x195 size**. If you don't add an `partners.image` attribute the **default category image will replace it**.
 
 Look this example:
 
@@ -49,30 +51,8 @@ Look this example:
       "site" : "GopherCasts",
       "site_url": "https://gophercasts.io",
       "image": "gophercasts.jpg",
-      "videos": [
-        {
-          "title": "Getting Started with Go",
-          "description": "How to setup your environment and write a Hello World application using the Go programming language.",
-          "duration": "3:14",
-          "url": "https://gophercasts.io/lessons/1-getting-started-with-go"
-        }
-      ]
-    }
-  ]
-},
-```
-
-If you don't have website, but you have youtube or vimeo screencasts, just add your videos without the `partners.site` and `partners.site_url`, like the example below:
-
-``` javascript
-"go": {
-  "subtitle": "Go",
-  "about": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
-  "site": "http://golang.org",
-  "image": "go.jpg",
-  "partners": [
-    {
-      "image": "gophercasts.jpg",
+      "lang": "en"
+      "publish": true
       "videos": [
         {
           "title": "Getting Started with Go",
@@ -106,7 +86,7 @@ cd devscreencasts
 harp server
 ```
 
-And access in your browser the url: http://localhost:9000
+And access in your browser the url: [http://localhost:9000](http://localhost:9000).
 
 ## Author
 
