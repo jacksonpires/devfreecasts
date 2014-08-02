@@ -1,5 +1,4 @@
 h3 #{description}
-
 ul
-  li <a href="/videos/go">Go</a>
-  li <a href="/videos/nodejs">Node.js</a>
+  for video, slug in public.videos._data
+    li <a href="/videos/#{ slug }">#{video.subtitle}</a>

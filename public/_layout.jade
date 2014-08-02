@@ -2,8 +2,8 @@
 html(lang="en")
   head
     != partial("_shared/head")
-  body(style="background:#FEFEFE;")
+  body
     != partial("_shared/header")
-    div.container(role="main" style="")
+    main.container(role="main")
       != yield
     != partial("_shared/footer")

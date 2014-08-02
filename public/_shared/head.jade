@@ -1,5 +1,16 @@
 meta(charset="utf-8")
-title #{title}
+if subtitle
+  title #{subtitle} | #{title}
+else
+  title #{title}
 meta(name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no")
+meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
+meta(name="apple-mobile-web-app-capable" content="yes")
+meta(name="author" content="#{title}")
+meta(name="description" content="#{description}")
+meta(name="og:title" content="#{title}")
+meta(name="og:description" content="#{description}")
+meta(name="og:site_name" content="#{title}")
+meta(name="og:type" content="website")
 link(rel="stylesheet" href="/css/main.min.css")
 link(href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css")
