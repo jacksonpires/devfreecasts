@@ -90,9 +90,9 @@ If you don't have website, but you have youtube or vimeo screencasts, just add y
 
 ## Development mode
 
-To run this project in development mode, you need have [Node.js](http://nodejs.org) and (HarpJS)[http://harpjs.com] installed.
+To run this project in development mode, you need have [Node.js](http://nodejs.org) and [HarpJS](http://harpjs.com) installed.
 
-To install Node.js, just (follow this wiki rules)[http://nodejs.org/download]
+To install Node.js, just [follow this wiki rules](http://nodejs.org/download)
 
 To install HarpJS, just run the command below:
 
