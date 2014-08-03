@@ -23,6 +23,36 @@
             "description": "A look into the files and folders inside every Rails application and how they fit together.",
             "duration": "14:03",
             "url": "https://gorails.com/episodes/rails-application-structure"
+          },
+          {
+            "title": "User Authentication with Devise",
+            "description": "A look into user accounts, registration, login, forgot your password, and more.",
+            "duration": "19:05",
+            "url": "https://gorails.com/episodes/user-authentication-with-devise"
+          },
+          {
+            "title": "File Uploading with Carrierwave",
+            "description": "Using Rails to upload files manually and how you can do it even cleaner using Carrierwave.",
+            "duration": "23:22",
+            "url": "https://gorails.com/episodes/file-uploading-with-carrierwave"
+          },
+          {
+            "title": "Pagination with will_paginate",
+            "description": "A look into how pagination works from scratch and how to use will_paginate.",
+            "duration": "9:40",
+            "url": "https://gorails.com/episodes/pagination-with-will-paginate"
+          },
+          {
+            "title": "Pretty urls with FriendlyID",
+            "description": "Techniques for taking your database models and using attributes to generate pretty urls.",
+            "duration": "9:40",
+            "url": "https://gorails.com/episodes/pretty-urls-with-friendly-id"
+          },
+          {
+            "title": "The Params Hash",
+            "description": "A glimpse into the 'magic' behind the params hash and the various ways it gets populated.",
+            "duration": "15:51",
+            "url": "https://gorails.com/episodes/the-params-hash"
           }
         ]
       }

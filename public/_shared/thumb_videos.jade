@@ -1,4 +1,4 @@
-h3 About #{subtitle}
+h2 #{subtitle}
 section
   p #{about}<br>Site: <a href="#{site}" target="_blank">#{site}</a>
 h3 Videos
@@ -7,10 +7,8 @@ div.row
     each video in partner.videos
       div.col-sm-6.col-md-4
         div.thumbnail
-          if partner.image
-            img(src="/images/#{partner.image}" class="img-rounded" width="250" height="120")
-          else
-            img(src="/images/#{image}" class="img-rounded" width="250" height="120")
+          a(href="#{video.url}" target="_blank" title="#{video.title}")
+            img(src="/images/#{partner.image || image}" class="img-rounded" width="250" height="120")
           div.caption
             h3 #{video.title}
             p.video-description #{video.description}

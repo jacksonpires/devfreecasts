@@ -55,22 +55,16 @@
             "url": "https://www.eventedmind.com/classes/how-to/meteor-make-a-reactive-join-in-the-ui"
           },
           {
-            "title": "How to: Publish a Many-to-Many Relationship",
+            "title": "Publish a Many-to-Many Relationship",
             "description": "Although we're using document oriented storage with MongoDB, sometimes it's useful to normalize our data in separate collections. In this episode, I'll show you how to publish a many-to-many relationship from a single publish function.",
             "duration": "14:00",
             "url": "https://www.eventedmind.com/classes/how-to/meteor-how-to-publish-a-many-to-many-relationship"
           },
           {
-            "title": "How to: Publish to a Client Only Collection",
+            "title": "Publish to a Client Only Collection",
             "description": "In this episode we'll publish automatically refreshing, signed CloudFront urls to a client only Collection. We'll use Iron Router for routing and subscribing to a publish function depending on which page we're on.",
             "duration": "8:45",
             "url": "https://www.eventedmind.com/classes/how-to/meteor-how-to-publish-to-a-client-only-collection"
-          },
-          {
-            "title": "How to: Use an iOS7 Style Loading Indicator with Iron Router",
-            "description": "In this episode, I'll show you how to integrate the NProgress widget and create a before hook that shows the iOS7 style loading indicator while waiting for data from a Meteor subscription.",
-            "duration": "7:27",
-            "url": "https://www.eventedmind.com/classes/how-to/meteor-how-to-use-an-ios7-style-loading-indicator-with-iron-router"
           }
         ]
       }

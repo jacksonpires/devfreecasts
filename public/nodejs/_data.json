@@ -25,6 +25,12 @@
             "url": "https://egghead.io/lessons/nodejs-npm-init"
           },
           {
+            "title": "Migrate to Express 4",
+            "description": "This lesson will explain some of the main breaking changes between Express 3 and Express 4.",
+            "duration": "1:58",
+            "url": "https://egghead.io/lessons/nodejs-migrate-to-express-4"
+          },
+          {
             "title": "CommonJS Basics Introduction",
             "description": "CoomonJS modules provide a clean syntax for importing dependencies. This lesson will take a look at the basics of using CommonJS modules.",
             "duration": "3:18",
@@ -35,18 +41,6 @@
             "description": "CommonJS modules provide a clean way to import dependencies in JavaScript.",
             "duration": "3:02",
             "url": "https://egghead.io/lessons/nodejs-what-are-commonjs-modules"
-          },
-          {
-            "title": "Migrate to Express 4",
-            "description": "This lesson will explain some of the main breaking changes between Express 3 and Express 4.",
-            "duration": "1:58",
-            "url": "https://egghead.io/lessons/nodejs-migrate-to-express-4"
-          },
-          {
-            "title": "First API with Node.js, Express and MongoDB",
-            "description": "Learn how to import data into your MongoDB and then use Express to serve a simple Node.js API.",
-            "duration": "6:44",
-            "url": "https://egghead.io/lessons/nodejs-first-api-with-node-js-express-and-mongodb"
           }
         ]
       },
