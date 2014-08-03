@@ -8,7 +8,7 @@ A huge collection of free screencasts for devs.
 
 First of all you need to [fork this repository](https://github.com/caio-ribeiro-pereira/devfreecasts/fork). 
 
-With this project in your hands, edit the `/public/categories/_data.json` and add your videos respecting these parameters: 
+With this project in your hands, edit the `/public/[platform-folder]/_data.json` and add your videos respecting these parameters: 
 
 ``` javascript
 "programming-language-or-framework-name": {
@@ -64,6 +64,20 @@ Look this example:
     }
   ]
 },
+```
+
+If you wanna add a new platform (programming language or framework), first you need to add it into `global.platforms` attribute in the file `harp.json`:
+
+``` javascript
+{
+  "globals": {
+    "title": "{DevFreeCasts}",
+    "description": "A huge collection of free screencasts for devs",
+    "name": "Caio Ribeiro Pereira",
+    "email": "caio.ribeiro.pereira@gmail.com",
+    "platforms": ["nodejs", "meteor", "go", "ruby"] // Just add here a new platform
+  }
+}
 ```
 
 ## Development mode

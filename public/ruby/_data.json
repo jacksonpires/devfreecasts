@@ -1,0 +1,31 @@
+{
+  "index": {
+    "subtitle": "Ruby",
+    "about": "Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.",
+    "site": "https://www.ruby-lang.org",
+    "image": "ruby.png",
+    "partners": [
+      {
+        "site" : "GoRails",
+        "site_url": "https://gorails.com/",
+        "image": "gorails.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Ruby Version Managers",
+            "description": "Techniques for installing Ruby and managing different versions between applications.",
+            "duration": "4:15",
+            "url": "https://gorails.com/episodes/ruby-version-managers"
+          },
+          {
+            "title": "Rails Application Structure",
+            "description": "A look into the files and folders inside every Rails application and how they fit together.",
+            "duration": "14:03",
+            "url": "https://gorails.com/episodes/rails-application-structure"
+          }
+        ]
+      }
+    ]
+  }
+}

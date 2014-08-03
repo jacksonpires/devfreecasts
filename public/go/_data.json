@@ -1,0 +1,73 @@
+{
+  "index": {
+    "subtitle": "Go",
+    "about": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "site": "http://golang.org",
+    "image": "go.png",
+    "partners": [
+      {
+        "site" : "GopherCasts",
+        "site_url": "https://gophercasts.io",
+        "image": "gophercasts.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Getting Started with Go",
+            "description": "How to setup your environment and write a Hello World application using the Go programming language.",
+            "duration": "3:14",
+            "url": "https://gophercasts.io/lessons/1-getting-started-with-go"
+          },
+          {
+            "title": "Go Language Basics",
+            "description": "In this episode Jeremy covers the basics of variables, functions and loops in Go.",
+            "duration": "5:49",
+            "url": "https://gophercasts.io/lessons/2-go-language-basics"
+          },
+          {
+            "title": "Martini and Markdown",
+            "description": "In this episode Jeremy builds a simple Martini web application that parses and presents Markdown.",
+            "duration": "5:23",
+            "url": "https://gophercasts.io/lessons/3-martini-and-markdown"
+          },
+          {
+            "title": "Postgres: Basics",
+            "description": "In this episode Jeremy covers how to setup and connect to a Postgres database with Go.",
+            "duration": "6:23",
+            "url": "https://gophercasts.io/lessons/4-postgres-basics"
+          },
+          {
+            "title": "HTML Templates",
+            "description": "Jeremy makes his books output prettier by using Bootstrap and HTML Templates.",
+            "duration": "4:18",
+            "url": "https://gophercasts.io/lessons/5-html-templates"
+          },
+          {
+            "title": "Postgres: Inserting Data",
+            "description": "Jeremy continues with his Martini web application and adds the ability to insert book data into the database.",
+            "duration": "3:34",
+            "url": "https://gophercasts.io/lessons/6-postgres-inserting-data"
+          },
+          {
+            "title": "Auth: Part 1",
+            "description": "Jeremy covers basic authentication with Martini.",
+            "duration": "4:35",
+            "url": "https://gophercasts.io/lessons/7-auth-part-1"
+          },
+          {
+            "title": "Auth: Part 2",
+            "description": "Jeremy covers basic authentication with Martini.",
+            "duration": "4:49",
+            "url": "https://gophercasts.io/lessons/8-auth-part-2"
+          },
+          {
+            "title": "Auth: Part 3",
+            "description": "Jeremy covers basic authentication with Martini.",
+            "duration": "5:28",
+            "url": "https://gophercasts.io/lessons/9-auth-part-3"
+          }
+        ]
+      }
+    ]
+  }
+}

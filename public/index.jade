@@ -1,7 +1,9 @@
 h3.center #{description}
+p.center Choose a platform
 section.row
-for category, slug in public.categories._data
+for platform in platforms
   - total_videos = 0
+  - category = public[platform]._data.index
   for partner in category.partners
     if partner.publish
       - total_videos = total_videos + partner.videos.length
@@ -9,11 +11,11 @@ for category, slug in public.categories._data
     div.col-sm-6.col-md-4
       div.jumbotron
         figure.jumbotron-photo
-          a(href="/categories/#{slug}")
+          a(href="/#{platform}")
             img(src="/images/#{category.image}" width="350" height="195")
         article.jumbotron-contents
           p.center
-            a(href="/categories/#{slug}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
+            a(href="/#{platform}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
 section.row
   div.col-sm-12
     p.center Wanna add your screencasts here? <a href="https://github.com/caio-ribeiro-pereira/devfreecasts/blob/master/README.md#how-to-add-screencasts" target="_blank">Just follow this simple rules...</a>
