@@ -1,0 +1,51 @@
+{
+  "index": {
+    "subtitle": "PHP",
+    "about": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
+    "site": "https://php.net/",
+    "image": "php.png",
+    "partners": [
+      {
+        "site" : "Evaldo Junior",
+        "site_url": "https://www.youtube.com/user/EvaldoJuniorBento/videos",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "PHP, Request and Servers",
+            "description": "A quick and good video explaining how a PHP server works when a client do some requests there.",
+            "duration": "3:49",
+            "url": "https://www.youtube.com/watch?v=a7gycPVPtRk"
+          }
+        ]
+      },
+      {
+        "site" : "Knp University",
+        "site_url": "https://knpuniversity.com",
+        "image": "knpuniversity.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "PHP Namespaces in 120 seconds",
+            "description": "Still not quite comfortable with PHP 5.3 namespaces? No problem! Give us 120 seconds and we'll introduce you to all the crazy characters ('namespace', 'use' and '\\') and show you how they work.",
+            "duration": "2:18",
+            "url": "https://knpuniversity.com/screencast/php-namespaces-in-120-seconds/namespaces"
+          },
+          {
+            "title": "Dependency Injection Introduction",
+            "description": "In this tutorial, we'll see dependency injection in action, why it's important, and how it relates to services and service-oriented architecture. We'll also refactor our application to use a dependency injection container, using a fantastic.",
+            "duration": "22:45",
+            "url": "https://knpuniversity.com/screencast/dependency-injection/intro"
+          },
+          {
+            "title": "The Worlderful World of Composer",
+            "description": "In this Screencast, you'll learn how to install and configure Composer and use it to integrate third-party libraries into any PHP project (even something like Wordpress!).",
+            "duration": "14:00",
+            "url": "https://knpuniversity.com/screencast/composer/composer"
+          }
+        ]
+      }
+    ]
+  }
+}
