@@ -13,22 +13,16 @@
         "publish": true,
         "videos": [
           {
-            "title": "Introduction to Browserify",
-            "description": "Browserify is a tool that brings node.js style development to the browser.",
-            "duration": "4:37",
-            "url": "https://egghead.io/lessons/nodejs-introduction-to-browserify-part-1"
+            "title": "Migrate to Express 4",
+            "description": "This lesson will explain some of the main breaking changes between Express 3 and Express 4.",
+            "duration": "1:58",
+            "url": "https://egghead.io/lessons/nodejs-migrate-to-express-4"
           },
           {
             "title": "npm init",
             "description": "The command npm init provides an interactive step-by-step interface for creating a package.json",
             "duration": "1:29",
             "url": "https://egghead.io/lessons/nodejs-npm-init"
-          },
-          {
-            "title": "Migrate to Express 4",
-            "description": "This lesson will explain some of the main breaking changes between Express 3 and Express 4.",
-            "duration": "1:58",
-            "url": "https://egghead.io/lessons/nodejs-migrate-to-express-4"
           },
           {
             "title": "CommonJS Basics Introduction",
@@ -41,6 +35,12 @@
             "description": "CommonJS modules provide a clean way to import dependencies in JavaScript.",
             "duration": "3:02",
             "url": "https://egghead.io/lessons/nodejs-what-are-commonjs-modules"
+          },
+          {
+            "title": "Introduction to Browserify",
+            "description": "Browserify is a tool that brings node.js style development to the browser.",
+            "duration": "4:37",
+            "url": "https://egghead.io/lessons/nodejs-introduction-to-browserify-part-1"
           }
         ]
       },

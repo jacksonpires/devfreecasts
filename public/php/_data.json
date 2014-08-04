@@ -51,7 +51,7 @@
         "site_url": "https://knpuniversity.com",
         "image": "knpuniversity.jpg",
         "lang": "en",
-        "publish": true,
+        "publish": false,
         "videos": [
           {
             "title": "PHP Namespaces in 120 seconds",

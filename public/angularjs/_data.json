@@ -1,0 +1,61 @@
+{
+  "index": {
+    "subtitle": "AngularJS",
+    "about": "AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. Every feature can be modified or replaced to suit your unique development workflow and feature needs.",
+    "site": "https://angularjs.org",
+    "image": "angularjs.jpg",
+    "partners": [
+      {
+        "site" : "egghead",
+        "site_url": "https://egghead.io",
+        "image": "egghead.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Building an Angular App: Introduction",
+            "description": "In this lesson, we introduce our sample AngularJS application and discuss our objectives for this series.",
+            "duration": "1:54",
+            "url": "https://egghead.io/lessons/angularjs-building-an-angular-app-eggly-introduction"
+          },
+          {
+            "title": "Building an Angular App: Bootstrapping",
+            "description": "In this lesson, we learn how to take a static HTML page and tap into the power of AngularJS by bootstrapping the framework.",
+            "duration": "3:48",
+            "url": "https://egghead.io/lessons/angularjs-building-an-angular-app-bootstrapping"
+          }
+        ]
+      },
+      {
+        "site" : "DevCast",
+        "site_url": "http://www.youtube.com/user/DevCastVideos",
+        "image": "devcast.jpg",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Tunning the browser with AngularJS",
+            "description": "A hangouts about AngularJS.",
+            "duration": "1:38:07",
+            "url": "http://www.youtube.com/watch?v=Ph9hVLTmF2E"
+          }
+        ]
+      },
+      {
+        "site" : "Tuts+",
+        "site_url": "http://courses.tutsplus.com",
+        "lang": "en",
+        "image": "tutsplus.jpg",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Hands-on Angular Front-end Setup",
+            "description": "In this lesson, we'll set up the Angular front-end application with the help of Yeoman. We'll learn the structure of the application and the cool things Yeoman provides out of the box like testing and LiveReload.",
+            "duration": "10:37",
+            "url": "http://courses.tutsplus.com/courses/hands-on-angular/lessons/front-end-application-setup"
+          }
+        ]
+      }
+    ]
+  }
+}
