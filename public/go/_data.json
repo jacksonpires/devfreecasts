@@ -3,7 +3,7 @@
     "subtitle": "Go",
     "about": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
     "site": "http://golang.org",
-    "image": "go.png",
+    "image": "go.jpg",
     "partners": [
       {
         "site" : "GopherCasts",
