@@ -16,6 +16,12 @@
             "description": "A quick and good video explaining how a PHP server works when a client do some requests there.",
             "duration": "3:49",
             "url": "https://www.youtube.com/watch?v=a7gycPVPtRk"
+          },
+          {
+            "title": "Should I or should not use PHP framework?",
+            "description": "In this videos, let's learn the benefits of a PHP framework and when it'll be a good idea to use one.",
+            "duration": "2:56",
+            "url": "https://www.youtube.com/watch?v=GjBLxHANuy0"
           }
         ]
       },
