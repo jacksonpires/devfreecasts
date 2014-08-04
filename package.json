@@ -1,0 +1,15 @@
+{
+  "name": "devfreecasts",
+  "version": "0.0.1",
+  "description": "A huge collection of free screencasts for devs",
+  "main": "Gruntfile.js",
+  "author": "Caio Ribeiro Pereira",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt": "~0.4.5",
+    "grunt-gh-pages": "~0.9.1",
+    "grunt-harp": "~0.1.4",
+    "grunt-smushit": "~1.3.0"
+  }
+}
