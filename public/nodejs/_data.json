@@ -75,6 +75,21 @@
         ]
       },
       {
+        "site" : "Tuts+",
+        "site_url": "http://courses.tutsplus.com/",
+        "lang": "en",
+        "image": "tutsplus.jpg",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Building NPM Packages Setup the project",
+            "description": "The next step is to create the directory for our project. Also, we’ll need to set things up for browser testing, since our template will only support Node testing by default.",
+            "duration": "9:20",
+            "url": "http://courses.tutsplus.com/courses/building-npm-packages/lessons/setting-up-the-project"
+          }
+        ]
+      },
+      {
         "site" : "NodeCasts",
         "site_url": "http://nodecasts.net",
         "image": "nodecasts.jpg",

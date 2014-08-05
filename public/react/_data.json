@@ -28,6 +28,48 @@
         "publish": true,
         "videos": [
           {
+            "title": "Hello World - First Component",
+            "description": "This is the first lesson in a series of lessons that take a look at the core fundamentals of UI development with React. Hello world.",
+            "duration": "1:55",
+            "url": "https://egghead.io/lessons/react-hello-world-first-component"
+          },
+          {
+            "title": "The Render Method",
+            "description": "The render method is where the magic happens in your React components. This lesson will introduce you to this method and its use.",
+            "duration": "1:44",
+            "url": "https://egghead.io/lessons/react-the-render-method"
+          },
+          {
+            "title": "Introduction to Properties",
+            "description": "This lesson will teach you the basics of setting properties in your React components.",
+            "duration": "2:36",
+            "url": "https://egghead.io/lessons/react-introduction-to-properties"
+          },
+          {
+            "title": "Owner Ownee Relationship",
+            "description": "The owner-ownee relationship is used to designate a parent-child relationship with React components as it differs from the DOM relationship.",
+            "duration": "1:42",
+            "url": "https://egghead.io/lessons/react-owner-ownee-relationship"
+          },
+          {
+            "title": "Using Refs to Access Components",
+            "description": "When you are using React components you need to be able to access specific references to individual components. This is done by defining a ref.",
+            "duration": "4:40",
+            "url": "https://egghead.io/lessons/react-using-refs-to-access-components"
+          },
+          {
+            "title": "Composable Components",
+            "description": "To make more composable React components, you can define common APIs for similar component types.",
+            "duration": "5:34",
+            "url": "https://egghead.io/lessons/react-composable-components"
+          },
+          {
+            "title": "State Basics",
+            "description": "State is used for properties on a component that will change, versus static properties that are passed in. This lesson will introduce you to taking input within your React components.",
+            "duration": "1:55",
+            "url": "https://egghead.io/lessons/react-state-basics"
+          },
+          {
             "title": "Flux Components/Views",
             "description": "In Flux our Components are referred to as Views, but they are the same familiar Components associated with any React development.",
             "duration": "9:22",
