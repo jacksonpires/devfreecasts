@@ -18,4 +18,15 @@ for platform in platforms
             a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
 section.row
   div.col-sm-12
+    p.center Wanna share to your friends?
+  div.col-sm-2.col-sm-offset-2
+    a(target="_blank" rel="nofollow" href="https://www.facebook.com/sharer.php?u=#{root_url[environment]}&t=#{title}" class="btn btn-block btn-primary") Facebook
+  div.col-sm-2
+    a(target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?text=#{title}%20-%20#{root_url[environment]}&via=crp_underground" class="btn btn-block btn-info") Twitter
+  div.col-sm-2
+    a(target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&url=#{root_url[environment]}&title=#{title}&summary=#{description}&source=#{title}" class="btn btn-block btn-default") LinkedIn
+  div.col-sm-2
+    a(target="_blank" rel="nofollow" href="https://plus.google.com/share?url=#{root_url[environment]}" class="btn btn-block btn-danger") Google+
+section.row
+  div.col-sm-12
     p.center Wanna add your screencasts here? <a href="https://github.com/caio-ribeiro-pereira/devfreecasts/blob/master/README.md#how-to-add-screencasts" target="_blank">Just follow this simple rules...</a>
