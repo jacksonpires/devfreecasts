@@ -8,6 +8,10 @@
       "development": "/",
       "production": "/devfreecasts/"
     },
+    "utm": {
+      "development": "",
+      "production": "?utm_source=devfreecasts&utm_medium=medium&utm_campaign=DevFreeCasts"
+    },
     "platforms": ["nodejs", "meteor", "angularjs", "react", "go", "ruby", "php"]
   }
 }
