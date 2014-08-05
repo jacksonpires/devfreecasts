@@ -2,10 +2,10 @@ header.header
   nav.navbar.navbar-inverse(role="navigation")
     div.container
       div.navbar-header
-        a.navbar-brand(href="/") 
-          img(src="/images/devfreecasts.png" width="223" height="35" alt="DevFreeCasts" title="DevFreeCasts")
+        a.navbar-brand(href="#{root_url[environment]}") 
+          img(src="#{root_url[environment]}images/devfreecasts.png" width="223" height="35" alt="DevFreeCasts" title="DevFreeCasts")
       ul.collapse.nav.navbar-nav.navbar-right.navbar-collapse#navbar
         li
-          a.navbar-link(href="/about") About
+          a.navbar-link(href="#{root_url[environment]}about") About
         li
           a.navbar-link(href="https://github.com/caio-ribeiro-pereira/devfreecasts#how-to-add-screencasts" target="_blank") Add videos

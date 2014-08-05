@@ -11,11 +11,11 @@ for platform in platforms
     div.col-sm-6.col-md-4
       div.jumbotron
         figure.jumbotron-photo
-          a(href="/#{platform}")
-            img(src="/images/#{category.image}" width="350" height="195")
+          a(href="#{root_url[environment]}#{platform}")
+            img(src="#{root_url[environment]}images/#{category.image}" width="350" height="195")
         article.jumbotron-contents
           p.center
-            a(href="/#{platform}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
+            a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
 section.row
   div.col-sm-12
     p.center Wanna add your screencasts here? <a href="https://github.com/caio-ribeiro-pereira/devfreecasts/blob/master/README.md#how-to-add-screencasts" target="_blank">Just follow this simple rules...</a>

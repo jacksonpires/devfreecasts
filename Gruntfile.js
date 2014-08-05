@@ -2,17 +2,16 @@ module.exports = function(grunt) {
 
   var config = {
 
+    // Setup ENV vars ================================
+    env: {
+      dist : {
+        NODE_ENV : 'production'
+      }
+    },
+ 
     // Clean folders ================================
     clean: {
       dist: ["dist"]
-    },
-
-    // Smush it task ================================
-    smushit: {
-      dist: {
-        src: ['www/images/*.jpg'],
-        dest: 'www/images'
-      }
     },
 
     // Harp Compile ================================
@@ -39,9 +38,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-gh-pages");
   grunt.loadNpmTasks("grunt-harp");
-  grunt.loadNpmTasks("grunt-smushit");
+  grunt.loadNpmTasks("grunt-env");
   
-  grunt.registerTask("default",["clean", "harp", "smushit"/*, "gh-pages" */]);
+  grunt.registerTask("default",["env", "clean", "harp", "gh-pages"]);
 
   grunt.registerTask("deploy", ["default"]);
 };
