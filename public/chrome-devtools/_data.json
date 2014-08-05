@@ -1,0 +1,45 @@
+{
+  "index": {
+    "subtitle": "Chrome DevTools",
+    "about": "The Chrome Developer Tools (DevTools for short), are a set web authoring and debugging tools built into Google Chrome. The DevTools provide web developers deep access into the internals of the browser and their web application. Use the DevTools to efficiently track down layout issues, set JavaScript breakpoints, and get insights for code optimization.",
+    "site": "https://developer.chrome.com/devtools/index",
+    "image": "chrome-devtools.jpg",
+    "partners": [
+      {
+        "site" : "Tuts+",
+        "site_url": "http://courses.tutsplus.com/",
+        "lang": "en",
+        "image": "tutsplus.jpg",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Introduction of Chrome DevTools",
+            "description": "Welcome to this course on Chrome Developer Tools. To start out, we’ll take a brief look through each panel in the DevTools. Many cutting-edge features we’ll be covering can be found in Chrome Canary which contains the latest and greatest.",
+            "duration": "2:45",
+            "url": "http://courses.tutsplus.com/courses/chrome-developer-tools/lessons/introduction"
+          }
+        ]
+      },
+      {
+        "site" : "Zeno Rocha",
+        "site_url": "https://www.youtube.com/playlist?list=PLOU2XLYxmsILUKyjDYUVYLeq7yyTxM_3d",
+        "lang": "pt-br",
+        "publish": false,
+        "videos": [
+          {
+            "title": "Secrets of Chrome DevTools - Elements",
+            "description": "In this episode, let's learn about how to manipulate elements using Google Chrome DevTools.",
+            "duration": "5:38",
+            "url": "https://www.youtube.com/watch?v=XUgfwYzv-WQ"
+          },
+          {
+            "title": "Secrets of Chrome DevTools - Style",
+            "description": "In this episode, you will learn about customize stylesheets.",
+            "duration": "5:24",
+            "url": "https://www.youtube.com/watch?v=Lzbed3jiU5E"
+          }
+        ]
+      }
+    ]
+  }
+}
