@@ -29,5 +29,5 @@ for platform in platforms
           p.center
             a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
 section.row
-  div.col-sm-12
-    p.center Wanna add your screencasts here? <a href="https://github.com/caio-ribeiro-pereira/devfreecasts/blob/master/README.md#how-to-add-screencasts" target="_blank">Just follow this simple rules...</a>
+  div.col-sm-8.col-sm-offset-2
+    != partial("_shared/disqus")
