@@ -6,7 +6,7 @@
     "email": "caio.ribeiro.pereira@gmail.com",
     "root_url": {
       "development": "/",
-      "production": "/devfreecasts/"
+      "production": "http://caio-ribeiro-pereira.github.io/devfreecasts/"
     },
     "utm": {
       "development": "",
