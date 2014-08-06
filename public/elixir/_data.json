@@ -1,0 +1,43 @@
+{
+  "index": {
+    "subtitle": "Elixir",
+    "about": "Elixir is a functional, meta-programming aware language built on top of the Erlang VM. It is a dynamic language that focuses on tooling to leverage Erlang's abilities to build concurrent, distributed and fault-tolerant applications with hot code upgrades.",
+    "site": "http://elixir-lang.org",
+    "image": "elixir.jpg",
+    "partners": [
+      {
+        "site" : "Elixir sips",
+        "site_url": "http://elixirsips.com",
+        "image": "elixirsips.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Introduction and Installing Elixir",
+            "description": "A quick introduction to the screencast, followed by an Erlang / Elixir installation walkthrough.",
+            "duration": "5:46",
+            "url": "http://elixirsips.com/episodes/001_introduction_and_installing_elixir.html"
+          },
+          {
+            "title": "Dinamo Part 1",
+            "description": "The first part to an introduction to building a web application in Elixir using Dynamo.",
+            "duration": "7:38",
+            "url": "http://elixirsips.com/episodes/007_dynamo_part_1.html"
+          },
+          {
+            "title": "Releases with Relex",
+            "description": "Making your Elixir application redistributable using Erlang releases.",
+            "duration": "4:12",
+            "url": "http://elixirsips.com/episodes/043_releases_with_relex.html"
+          },
+          {
+            "title": "PCM Audio",
+            "description": "Generating PCM Audio and making some noise.",
+            "duration": "5:07",
+            "url": "http://elixirsips.com/episodes/084_pcm_audio.html"
+          }
+        ]
+      }
+    ]
+  }
+}
