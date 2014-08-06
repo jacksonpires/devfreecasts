@@ -6,6 +6,21 @@
     "image": "meteor.jpg",
     "partners": [
       {
+        "site" : "CodersTV",
+        "site_url": "http://coderstv.com",
+        "image": "coderstv.jpg",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Hands-on with Discover Meteor ebook",
+            "description": "I'm going to talk about some points from the Discover Meteor book, like deploying, packaging etc. Feel free to ask anything.",
+            "duration": "2:19:45",
+            "url": "http://coderstv.com/video/gabrielhpugliese/LQGRvwAp9tKYTqzZC"
+          }
+        ]
+      },
+      {
         "site" : "EventedMind",
         "site_url": "https://www.eventedmind.com",
         "image": "eventedmind.jpg",
