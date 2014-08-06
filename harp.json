@@ -13,8 +13,9 @@
       "production": "?utm_source=devfreecasts&utm_medium=medium&utm_campaign=DevFreeCasts"
     },
     "platforms": ["nodejs", "meteor", 
-                  "angularjs", "react", 
+                  "angularjs", "react", "backbone",
                   "javascript", "chrome-devtools",
-                  "go", "ruby", "elixir", "php"]
+                  "go", "ruby", "elixir", "php", 
+                  "grails"]
   }
 }
