@@ -1,18 +1,6 @@
 h3.center #{description}
 section.row
-  div.col-sm-12
-    p.center Wanna share to your friends?
-  div.col-sm-2.col-sm-offset-2
-    a(target="_blank" rel="nofollow" href="https://www.facebook.com/sharer.php?u=#{root_url[environment]}&t=#{title}" class="btn btn-block btn-primary") Facebook
-  div.col-sm-2
-    a(target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?text=#{title}%20-%20#{root_url[environment]}&via=crp_underground" class="btn btn-block btn-info") Twitter
-  div.col-sm-2
-    a(target="_blank" rel="nofollow" href="http://www.linkedin.com/shareArticle?mini=true&url=#{root_url[environment]}&title=#{title}&summary=#{description}&source=#{title}" class="btn btn-block btn-default") LinkedIn
-  div.col-sm-2
-    a(target="_blank" rel="nofollow" href="https://plus.google.com/share?url=#{root_url[environment]}" class="btn btn-block btn-danger") Google+
-section.row
   p.center Choose a platform
-section.row
 for platform in platforms
   - total_videos = 0
   - category = public[platform]._data.index
@@ -27,7 +15,9 @@ for platform in platforms
             img(src="#{root_url[environment]}images/#{category.image}" width="350" height="195")
         article.jumbotron-contents
           p.center
-            a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") #{category.subtitle} (#{total_videos} videos)
+            a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") <i class="icon-video"></i>&nbsp;#{category.subtitle} (#{total_videos} videos)
+section.row
+  != partial("_shared/social_buttons")
 section.row
   div.col-sm-8.col-sm-offset-2
     != partial("_shared/disqus")
