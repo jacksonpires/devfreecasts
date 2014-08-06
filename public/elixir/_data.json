@@ -35,6 +35,42 @@
             "description": "Generating PCM Audio and making some noise.",
             "duration": "5:07",
             "url": "http://elixirsips.com/episodes/084_pcm_audio.html"
+          },
+          {
+            "title": "Ecto Part 1",
+            "description": "An introduction to using Ecto and Postgres for persistence.",
+            "duration": "8:45",
+            "url": "http://elixirsips.com/episodes/024_ecto_part_1.html"
+          },
+          {
+            "title": "Parsing XML",
+            "description": "A glimpse into XML parsing in Elixir, by way of interoperating with an Erlang module.",
+            "duration": "9:21",
+            "url": "http://elixirsips.com/episodes/028_parsing_xml.html"
+          },
+          {
+            "title": "Maps Part 1",
+            "description": "An introduction to maps, a new feature in Erlang R17 and Elixir 0.13.",
+            "duration": "2:51",
+            "url": "http://elixirsips.com/episodes/054_maps_part_1.html"
+          },
+          {
+            "title": "Maps Part 2",
+            "description": "Introducing structs and demonstrating how they can take the place of public Records.",
+            "duration": "2:23",
+            "url": "http://elixirsips.com/episodes/055_maps_part_2.html"
+          },
+          {
+            "title": "Quickie Synth",
+            "description": "Using processes, gs, and shelling out to `sox` to build an Elixir-based synthesizer module.",
+            "duration": "9:44",
+            "url": "http://elixirsips.com/episodes/062_quickie_synth.html"
+          },
+          {
+            "title": "EEx",
+            "description": "Elixir's built-in templating language, useful for embedding Elixir code inside of a string.",
+            "duration": "3:36",
+            "url": "http://elixirsips.com/episodes/081_eex.html"
           }
         ]
       }

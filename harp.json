@@ -14,7 +14,7 @@
     },
     "platforms": ["nodejs", "meteor", 
                   "angularjs", "react", 
-                  "chrome-devtools",
+                  "javascript", "chrome-devtools",
                   "go", "ruby", "elixir", "php"]
   }
 }
