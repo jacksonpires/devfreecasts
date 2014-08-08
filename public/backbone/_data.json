@@ -24,6 +24,21 @@
             "url": "http://www.backbonerails.com/screencasts/loading-views"
           }
         ]
+      },
+      {
+        "site" : "DevCast",
+        "site_url": "https://www.youtube.com/watch?v=ySf85uOHehw",
+        "image": "devcast.jpg",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Working with Backbone.js",
+            "description": "A hangouts about Backbone.js.",
+            "duration": "3:14:21",
+            "url": "https://www.youtube.com/watch?v=ySf85uOHehw"
+          }
+        ]
       }
     ]
   }
