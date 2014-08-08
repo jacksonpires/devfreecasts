@@ -1,0 +1,31 @@
+{
+  "index": {
+    "subtitle": "Android",
+    "about": "Android runs on hundreds of millions of handheld devices around the world, and it now supports these exciting, new form-factors.",
+    "site": "http://developer.android.com",
+    "image": "android.jpg",
+    "partners": [
+      {
+        "site" : "Tuts+",
+        "site_url": "http://courses.tutsplus.com/",
+        "lang": "en",
+        "image": "tutsplus.jpg",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Getting Started",
+            "description": "This lesson will help get you started with Android development. We’ll begin, as expected, with the obligatory 'hello world' example.",
+            "duration": "12:02",
+            "url": "http://courses.tutsplus.com/courses/android-for-the-busy-developer/lessons/getting-started"
+          },
+          {
+            "title": "UI Designer",
+            "description": "Let’s begin by discussing the key aspects of designing user interface applications in Android.",
+            "duration": "18:20",
+            "url": "http://courses.tutsplus.com/courses/android-for-the-busy-developer/lessons/ui-designer"
+          }
+        ]
+      }
+    ]
+  }
+}

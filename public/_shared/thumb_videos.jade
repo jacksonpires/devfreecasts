@@ -11,7 +11,7 @@ div.row
             a(href="#{video.url}#{utm[environment]}" target="_blank" title="#{video.title}")
               img(src="#{root_url[environment]}images/#{partner.image || image}" class="img-rounded" width="250" height="120")
             div.caption
-              h3 #{video.title}
+              h3.video-title #{video.title}
               p.video-description #{video.description}
               p.video-metadata Author: <a href="#{partner.site_url}" target="_blank">#{partner.site}</a><br>Language: <span class="label label-primary">#{partner.lang.toUpperCase()}</span> | Duration: <span class="label label-primary">#{video.duration}</span>
               p <a href="#{video.url}#{utm[environment]}" class="btn btn-primary btn-block" role="button" target="_blank"><i class="icon-play"></i>&nbsp;Watch</a>

@@ -13,13 +13,13 @@
         "videos": [
           {
             "title": "Building Dialogs with Custom Regions",
-            "description": "In this screencast we'll go through integrating a jQuery UI dialog into our Backbone application. You'll see how to create a custom region object with Marionette to serve as a specialized dialog, allowing your views to easily pass configuration options to the modal.",
+            "description": "In this screencast we'll go through integrating a jQuery UI dialog into our Backbone application. You'll see how to create a custom region object with Marionette to serve as a specialized dialog.",
             "duration": "36:54",
             "url": "http://www.backbonerails.com/screencasts/building-dialogs-with-custom-regions"
           },
           {
             "title": "Loading Views",
-            "description": "In this screencast, we'll build a fully functioning loading component using Backbone.js and Marionette.js. We'll answer how to handle old views when new views are requested. We'll also look at some common pitfalls that can cause memory leaks when handling view logic.",
+            "description": "In this screencast, we'll build a fully functioning loading component using Backbone.js and Marionette.js. We'll answer how to handle old views when new views are requested.",
             "duration": "56:50",
             "url": "http://www.backbonerails.com/screencasts/loading-views"
           }

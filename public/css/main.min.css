@@ -58,7 +58,7 @@ body{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#
  * Custom CSS for DevFreeCasts 
  *
  */
-body{background:#FEFEFE;}.footer-about{text-align:center;color:#FFF;}.header{margin-bottom:-15px;}.video-description{height:110px;}.video-metadata{text-align:right;font-size:.85em;}.center{text-align:center;}.navbar-brand{padding:8px 15px;}.jumbotron{margin:50px 0;}.jumbotron .jumbotron-contents{padding:20px 20px 5px;}
+body{background:#FEFEFE;}.footer-about{text-align:center;color:#FFF;}.header{margin-bottom:-15px;}.video-title{height:25px;}.video-description{height:140px;}.video-metadata{text-align:right;font-size:.85em;}.center{text-align:center;}.navbar-brand{padding:8px 15px;}.jumbotron{margin:50px 0;}.jumbotron .jumbotron-contents{padding:20px 20px 5px;}
 /*
  *
  * Custom FontIcons

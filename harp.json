@@ -16,6 +16,6 @@
                   "angularjs", "react", "backbone",
                   "javascript", "chrome-devtools",
                   "go", "ruby", "elixir", "php", 
-                  "grails"]
+                  "grails", "android"]
   }
 }

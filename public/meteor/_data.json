@@ -13,7 +13,7 @@
         "publish": true,
         "videos": [
           {
-            "title": "Hands-on with Discover Meteor ebook",
+            "title": "Hands-on with Discover Meteor",
             "description": "I'm going to talk about some points from the Discover Meteor book, like deploying, packaging etc. Feel free to ask anything.",
             "duration": "2:19:45",
             "url": "http://coderstv.com/video/gabrielhpugliese/LQGRvwAp9tKYTqzZC"
@@ -34,7 +34,7 @@
             "url": "https://www.eventedmind.com/classes/meteor-getting-started-with-meteor/meteor-what-is-meteor"
           },
           {
-            "title": "Building an Application with Meteor",
+            "title": "Building an Meteor Application",
             "description": "In this video I'll introduce the Building an Application with Meteor and Iron Router class.",
             "duration": "1:34",
             "url": "https://www.eventedmind.com/classes/meteor-building-an-application-with-meteor-and-iron-router/meteor-introduction"
