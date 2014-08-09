@@ -16,6 +16,7 @@
             "title": "ES6 Generators",
             "description": "Generators! In this episode we introduce you to working lazily with complex array calculations with generators.",
             "duration": "7:40",
+            "level": "a",
             "url": "http://tagtree.tv/ecmascript-6-episode-4"
           }
         ]
@@ -31,12 +32,14 @@
             "title": "Functions Scope Basic",
             "description": "This or that? Javascript scoping can be confusing. This lesson covers the very basics of function scoping.",
             "duration": "5:45",
+            "level": "i",
             "url": "https://egghead.io/lessons/core-javascript-function-scope-basics"
           },
           {
             "title": "Introduction to Lodash",
             "description": "Lodash is a toolkit of Javascript functions that provides clean, performant methods for manipulating objects and collections. It is a 'fork' of the Underscore library and provides additional functionality as well as some serious performance improvements. If you aren't using Lodash, you should be.",
             "duration": "1:33",
+            "level": "i",
             "url": "https://egghead.io/lessons/core-javascript-introduction-to-lodash"
           }
         ]
@@ -52,12 +55,14 @@
             "title": "Introduction to ECMAScript 6",
             "description": "Welcome to What's Coming to JavaScript. ECMAScript 6 introduces many new features to the language. We won't look at all of them, but we will spend time with the big new features that will fundamentally change the way we write JavaScript.",
             "duration": "0:44",
+            "level": "b",
             "url": "http://courses.tutsplus.com/courses/whats-coming-to-javascript/lessons/introduction"
           },
           {
             "title": "Picking the ECMAScript 6 environment",
             "description": "Because ES6 is not finalized, we will not find an environment that implements 100% of the specification. There are two environments we'll use: Google Traceur and Firefox Nightly",
             "duration": "6:26",
+            "level": "b",
             "url": "http://courses.tutsplus.com/courses/whats-coming-to-javascript/lessons/picking-the-ecmascript-6-environments"
           }
         ]

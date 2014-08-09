@@ -16,6 +16,7 @@
             "title": "Thinking in React",
             "description": "We build a sample app in the Facebook view library, following along with their 'Thinking in React' guide.",
             "duration": "15:15",
+            "level": "b",
             "url": "http://tagtree.tv/thinking-in-react"
           }
         ]
@@ -31,78 +32,91 @@
             "title": "Hello World - First Component",
             "description": "This is the first lesson in a series of lessons that take a look at the core fundamentals of UI development with React. Hello world.",
             "duration": "1:55",
+            "level": "b",
             "url": "https://egghead.io/lessons/react-hello-world-first-component"
           },
           {
             "title": "The Render Method",
             "description": "The render method is where the magic happens in your React components. This lesson will introduce you to this method and its use.",
             "duration": "1:44",
+            "level": "b",
             "url": "https://egghead.io/lessons/react-the-render-method"
           },
           {
             "title": "Introduction to Properties",
             "description": "This lesson will teach you the basics of setting properties in your React components.",
             "duration": "2:36",
+            "level": "b",
             "url": "https://egghead.io/lessons/react-introduction-to-properties"
           },
           {
             "title": "Owner Ownee Relationship",
             "description": "The owner-ownee relationship is used to designate a parent-child relationship with React components as it differs from the DOM relationship.",
             "duration": "1:42",
+            "level": "i",
             "url": "https://egghead.io/lessons/react-owner-ownee-relationship"
           },
           {
             "title": "Using Refs to Access Components",
             "description": "When you are using React components you need to be able to access specific references to individual components. This is done by defining a ref.",
             "duration": "4:40",
+            "level": "i",
             "url": "https://egghead.io/lessons/react-using-refs-to-access-components"
           },
           {
             "title": "Composable Components",
             "description": "To make more composable React components, you can define common APIs for similar component types.",
             "duration": "5:34",
+            "level": "i",
             "url": "https://egghead.io/lessons/react-composable-components"
           },
           {
             "title": "State Basics",
             "description": "State is used for properties on a component that will change, versus static properties that are passed in. This lesson will introduce you to taking input within your React components.",
             "duration": "1:55",
+            "level": "i",
             "url": "https://egghead.io/lessons/react-state-basics"
           },
           {
             "title": "Flux Components/Views",
             "description": "In Flux our Components are referred to as Views, but they are the same familiar Components associated with any React development.",
             "duration": "9:22",
+            "level": "a",
             "url": "https://egghead.io/lessons/react-flux-components-views"
           },
           {
             "title": "Flux Stores",
             "description": "Stores are where the real work in our application is done. Dispatchers broadcast Actions to all Stores, and the Stores registered to listen for those Actions will perform any logic needed to update our Views.",
             "duration": "5:53",
+            "level": "a",
             "url": "https://egghead.io/lessons/react-flux-stores"
           },
           {
             "title": "Flux Actions",
             "description": "Actions contain no functionality, but rather describe an event in our application. In this lesson we will describe our Actions as they relate to our application. These Actions will then be available for triggering in our Views and for execution in our Store.",
             "duration": "3:41",
+            "level": "a",
             "url": "https://egghead.io/lessons/react-actions"
           },
           {
             "title": "Flux Overview and Dispatchers",
             "description": "In this lesson we will start by creating our Dispatcher which queues up our Actions as Promises and executes them as they are received.",
             "duration": "5:48",
+            "level": "a",
             "url": "https://egghead.io/lessons/react-flux-overview-and-dispatchers"
           },
           {
             "title": "Flux Development Environment Setup",
             "description": "Our build process during this series will utilize both gulp and browserify. In this lesson we will take a moment to setup our environment and all of the tooling required to begin developing our Flux Application.",
             "duration": "6:39",
+            "level": "a",
             "url": "https://egghead.io/lessons/react-development-environment-setup"
           },
           {
             "title": "Developer Tools",
             "description": "React Development Tools is a Chrome plugin that provides handy ways to inspect and debug your React components.",
             "duration": "4:14",
+            "level": "i",
             "url": "https://egghead.io/lessons/developer-tools"
           }
         ]

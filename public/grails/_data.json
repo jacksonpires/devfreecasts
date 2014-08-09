@@ -15,18 +15,21 @@
             "title": "Grails: Why?",
             "description": "In this video, let's learn what is Grails and how it can make developing web applications much simpler.",
             "duration": "32:17",
+            "level": "b",
             "url": "http://www.youtube.com/watch?v=chvOqfG65G4"
           },
           {
             "title": "Groovy Collections",
             "description": "In this video you will learn how to work and manipule Groovy Collections.",
             "duration": "17:25",
+            "level": "i",
             "url": "http://www.youtube.com/watch?v=WkQVkIVJHxA"
           },
           {
             "title": "Grails dependencies with Artifactory",
             "description": "Artifactory is a popular Grails dependency manager, in this video you will watch how to use and what is your benefits.",
             "duration": "15:22",
+            "level": "i",
             "url": "http://www.youtube.com/watch?v=Xw4DSm9BzmI"
           }
         ]

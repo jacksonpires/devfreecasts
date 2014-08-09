@@ -15,12 +15,14 @@
             "title": "PHP, Request and Servers",
             "description": "A quick and good video explaining how a PHP server works when a client do some requests there.",
             "duration": "3:49",
+            "level": "b",
             "url": "https://www.youtube.com/watch?v=a7gycPVPtRk"
           },
           {
             "title": "Should I or not use PHP framework?",
             "description": "In this videos, let's learn the benefits of a PHP framework and when it'll be a good idea to use one.",
             "duration": "2:56",
+            "level": "b",
             "url": "https://www.youtube.com/watch?v=GjBLxHANuy0"
           }
         ]
@@ -36,12 +38,14 @@
             "title": "Introduction OOP Design in PHP",
             "description": "In this lesson we’ll review the course outline, describe the environment being used for the screencasts, and discuss some additional resources.",
             "duration": "2:51",
+            "level": "i",
             "url": "http://courses.tutsplus.com/courses/object-oriented-design-in-php/lessons/introduction"
           },
           {
             "title": "Isolating Global State",
             "description": "Now that we’re bootstrapped and ready to go, we’re going to take first step to becoming object-oriented, by isolating global scope.",
             "duration": "6:54",
+            "level": "i",
             "url": "http://courses.tutsplus.com/courses/object-oriented-design-in-php/lessons/isolating-global-state"
           }
         ]
@@ -57,18 +61,21 @@
             "title": "PHP Namespaces in 120 seconds",
             "description": "Still not quite comfortable with PHP 5.3 namespaces? No problem! Give us 120 seconds and we'll introduce you to all the crazy characters ('namespace', 'use' and '\\') and show you how they work.",
             "duration": "2:18",
+            "level": "i",
             "url": "https://knpuniversity.com/screencast/php-namespaces-in-120-seconds/namespaces"
           },
           {
             "title": "Dependency Injection Introduction",
             "description": "In this tutorial, we'll see dependency injection in action, why it's important, and how it relates to services and service-oriented architecture. We'll also refactor our application to use a dependency injection container, using a fantastic.",
             "duration": "22:45",
+            "level": "a",
             "url": "https://knpuniversity.com/screencast/dependency-injection/intro"
           },
           {
             "title": "The Worlderful World of Composer",
             "description": "In this Screencast, you'll learn how to install and configure Composer and use it to integrate third-party libraries into any PHP project (even something like Wordpress!).",
             "duration": "14:00",
+            "level": "i",
             "url": "https://knpuniversity.com/screencast/composer/composer"
           }
         ]

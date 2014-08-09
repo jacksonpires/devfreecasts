@@ -16,12 +16,14 @@
             "title": "Getting Started",
             "description": "This lesson will help get you started with Android development. We’ll begin, as expected, with the obligatory 'hello world' example.",
             "duration": "12:02",
+            "level": "b",
             "url": "http://courses.tutsplus.com/courses/android-for-the-busy-developer/lessons/getting-started"
           },
           {
             "title": "UI Designer",
             "description": "Let’s begin by discussing the key aspects of designing user interface applications in Android.",
             "duration": "18:20",
+            "level": "i",
             "url": "http://courses.tutsplus.com/courses/android-for-the-busy-developer/lessons/ui-designer"
           }
         ]
