@@ -6,6 +6,36 @@
     "image": "nodejs.jpg",
     "partners": [
       {
+        "site" : "Zaringa Tongy",
+        "site_url": "https://www.youtube.com/user/zarigatongy/videos",
+        "lang": "en",
+        "publish": false,
+        "videos": [
+          {
+            "title": "10 Reasons to choose Node.js",
+            "description": "A quick video which shows 10 good reasons to choose Node.js as your new platform to build web applications",
+            "duration": "1:42",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=eg8P7Sy9d3k" 
+          }
+        ]
+      },
+      {
+        "site" : "Jim R. Wilson",
+        "site_url": "https://www.youtube.com/channel/UC0yNbk3zJMvB_HAlf-2eEIw/videos",
+        "lang": "en",
+        "publish": false,
+        "videos": [
+          {
+            "title": "Building Distributed Systems with Node.js and ØMQ",
+            "description": "Jim R. Wilson, author of Node.js the Right Way, explains how to build distributed systems using ØMQ at a Node.js in the Wild meetup.",
+            "duration": "48:00",
+            "level": "a",
+            "url": "https://www.youtube.com/watch?v=zgDjaJdAB9c" 
+          }
+        ]
+      },
+      {
         "site" : "egghead",
         "site_url": "https://egghead.io",
         "image": "egghead.jpg",

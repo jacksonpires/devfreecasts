@@ -6,6 +6,22 @@
     "image": "go.jpg",
     "partners": [
       {
+        "site": "Russ Cox",
+        "site_url": "https://www.youtube.com/user/rscgolang/videos",
+        "image": "russcox.jpg",
+        "lang": "en",
+        "publish": false,
+        "videos": [
+          {
+            "title": "A Tour of Go",
+            "description": "Three things that make Go fast, fun, and productive for me: interfaces, reflection, and concurrency. Builds a toy web crawler to demonstrate these.",
+            "duration": "34:40",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=ytEkHepK08c"
+          }
+        ]
+      },
+      {
         "site" : "GopherCasts",
         "site_url": "https://gophercasts.io",
         "image": "gophercasts.jpg",
