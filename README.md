@@ -4,6 +4,14 @@ A huge collection of free screencasts for devs.
 
 ## How to add screencasts?
 
+There are two ways to send your screencast.
+
+#### 1 - Google Docs Form
+
+Just complete this form: https://docs.google.com/forms/d/1T1n-5WP1oV_tvvrIlbLfvpUXfLz-HQ4T57lR08Dt0wU/viewform
+
+#### 2 - Github Fork
+
 **Before start it, all videos you add must be freeware and for web developers** 
 
 First of all you need to [fork this repository](https://github.com/caio-ribeiro-pereira/devfreecasts/fork). 
