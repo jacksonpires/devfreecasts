@@ -16,6 +16,7 @@
             "title": "Hands-on with Discover Meteor",
             "description": "I'm going to talk about some points from the Discover Meteor book, like deploying, packaging etc. Feel free to ask anything.",
             "duration": "2:19:45",
+            "level": "b",
             "url": "http://coderstv.com/video/gabrielhpugliese/LQGRvwAp9tKYTqzZC"
           }
         ]
@@ -31,54 +32,63 @@
             "title": "What is Meteor?",
             "description": "I'll illustrate the key components on the client (browser) and the server that make Meteor a full-stack framework. This video will provide you a mental map for learning Meteor in depth.",
             "duration": "4:06",
+            "level": "b",
             "url": "https://www.eventedmind.com/classes/meteor-getting-started-with-meteor/meteor-what-is-meteor"
           },
           {
             "title": "Building an Meteor Application",
             "description": "In this video I'll introduce the Building an Application with Meteor and Iron Router class.",
             "duration": "1:34",
+            "level": "b",
             "url": "https://www.eventedmind.com/classes/meteor-building-an-application-with-meteor-and-iron-router/meteor-introduction"
           },
           {
             "title": "Iron Router Introduction",
             "description": "This video introduces the Inside Iron Router class. Get a preview of what's to come in the rest of the class.",
             "duration": "1:55",
+            "level": "i",
             "url": "https://www.eventedmind.com/classes/iron-router-inside-iron-router/iron-router-introduction"
           },
           {
             "title": "What is Rectivity?",
             "description": "In this introduction we'll explore what it means to be reactive and we'll see where Meteor implements this functionality.",
             "duration": "1:29",
+            "level": "i",
             "url": "https://www.eventedmind.com/classes/meteor-meteor-reactivity-with-deps/meteor-what-is-reactivity"
           },
           {
             "title": "Introduction the Livedata Class",
             "description": "The livedata package is where we get Meteor methods, publish and subscribe, DDP client and server. In this class we'll start off by looking at how traditional Web applications use the HTTP protocol.",
             "duration": "2:28",
+            "level": "a",
             "url": "https://www.eventedmind.com/classes/livedata/introducing-the-livedata-class"
           },
           {
             "title": "Introducing The Shark Preview Track",
             "description": "The Meteor Shark Preview Track starts with the new Spacebars templating system and how it differs from the previous system. Then we'll look at how to create and use components. And of course, we'll dive into the internals of Spacebars and Components.",
             "duration": "1:32",
+            "level": "i",
             "url": "https://www.eventedmind.com/classes/meteor-shark-ui-preview/meteor-introducing-the-shark-preview-track"
           },
           {
             "title": "Make a Reactive Join in the UI",
             "description": "How do you reactively join two collections in the user interface? In this video we'll explore two ways to join documents in the user interface. The first prevents reactivity. The second enables reactivity.",
             "duration": "8:45",
+            "level": "a",
             "url": "https://www.eventedmind.com/classes/how-to/meteor-make-a-reactive-join-in-the-ui"
           },
           {
             "title": "Publish a Many-to-Many Relationship",
             "description": "Although we're using document oriented storage with MongoDB, sometimes it's useful to normalize our data in separate collections. In this episode, I'll show you how to publish a many-to-many relationship from a single publish function.",
             "duration": "14:00",
+            "level": "a",
             "url": "https://www.eventedmind.com/classes/how-to/meteor-how-to-publish-a-many-to-many-relationship"
           },
           {
             "title": "Publish to a Client Only Collection",
             "description": "In this episode we'll publish automatically refreshing, signed CloudFront urls to a client only Collection. We'll use Iron Router for routing and subscribing to a publish function depending on which page we're on.",
             "duration": "8:45",
+            "level": "i",
             "url": "https://www.eventedmind.com/classes/how-to/meteor-how-to-publish-to-a-client-only-collection"
           }
         ]

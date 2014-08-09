@@ -7,5 +7,7 @@ html(lang="en")
     main.container(role="main")
       != yield
     != partial("_shared/footer")
+    script(src="#{root_url[environment]}js/main.min.js")
     if environment == "production"
       != partial("_shared/google_analytics")
+      != partial("_shared/disqus")
