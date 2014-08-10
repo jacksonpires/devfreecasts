@@ -6,6 +6,29 @@
     "image": "go.jpg",
     "partners": [
       {
+        "site": "The Go Programming Language",
+        "site_url": "https://www.youtube.com/user/gocoding",
+        "image": "golang.jpg",
+        "lang": "en",
+        "publish": false,
+        "videos": [
+          {
+            "title": "Writing, building, installing and testing Go code",
+            "description": "This screencast describes setting up a workspace (GOPATH), writing commands and packages, using the go tool to build and install, and using the testing package to write unit tests.",
+            "duration": "5:03",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=XCsL89YtqCs"
+          },
+          {
+            "title": "Testing Techniques",
+            "description": "This talk was initially presented by Andrew Gerrand at Google I/O 2014 at the Go Developer Sandbox.",
+            "duration": "50:16",
+            "level": "i",
+            "url": "https://www.youtube.com/watch?v=ndmB0bj7eyw"
+          }
+        ]
+      },
+      {
         "site": "Russ Cox",
         "site_url": "https://www.youtube.com/user/rscgolang/videos",
         "image": "russcox.jpg",

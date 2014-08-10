@@ -1,22 +1,29 @@
 h3.center #{description}
 section.row
-  p.center Choose a platform
-for platform in platforms
-  - total_videos = 0
-  - category = public[platform]._data.index
-  for partner in category.partners
-    if partner.publish
-      - total_videos = total_videos + partner.videos.length
-  if total_videos
-    div.col-sm-6.col-md-4
-      div.jumbotron
-        figure.jumbotron-photo
-          a(href="#{root_url[environment]}#{platform}")
-            img(src="#{root_url[environment]}images/#{category.image}" width="350" height="195")
-        article.jumbotron-contents
-          p.center
-            a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") <i class="icon-video"></i>&nbsp;#{category.subtitle} (#{total_videos} videos)
+  - total_free_casts = 0
+  - total_published_platforms = 0
+  for platform in platforms
+    - total_videos = 0
+    - category = public[platform]._data.index
+    - platform_is_published = false
+    for partner in category.partners
+      if partner.publish
+        - total_videos = total_videos + partner.videos.length
+        - platform_is_published = true
+    if total_videos
+      div.col-sm-6.col-md-4
+        div.jumbotron
+          figure.jumbotron-photo
+            a(href="#{root_url[environment]}#{platform}")
+              img(src="#{root_url[environment]}images/#{category.image}" width="350" height="195")
+          article.jumbotron-contents
+            p.center
+              a(href="#{root_url[environment]}#{platform}" class="btn btn-block btn-primary") <i class="icon-video"></i>&nbsp;#{category.subtitle} (#{total_videos} videos)
+    - total_free_casts = total_videos + total_free_casts
+    if platform_is_published
+      - total_published_platforms = total_published_platforms + 1
 section.row
+  p.center <strong>#{total_published_platforms}</strong> platforms and <strong>#{total_free_casts}</strong> freecasts
   != partial("_shared/social_buttons")
 section.row
   div.col-sm-8.col-sm-offset-2
