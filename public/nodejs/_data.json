@@ -24,7 +24,7 @@
         "site" : "Jim R. Wilson",
         "site_url": "https://www.youtube.com/channel/UC0yNbk3zJMvB_HAlf-2eEIw/videos",
         "lang": "en",
-        "publish": false,
+        "publish": true,
         "videos": [
           {
             "title": "Building Distributed Systems with Node.js and ØMQ",
