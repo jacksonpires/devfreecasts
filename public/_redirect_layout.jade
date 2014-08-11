@@ -1,0 +1,41 @@
+!!!
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title #{title}
+    meta(name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no")
+    meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    link(rel="icon" href="#{root_url[environment]}favicon.ico" type="image/x-icon")
+    link(href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css")
+    style.
+      body {
+        font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        color:#434a54;
+        background-color:#fff
+      }
+      a {
+        color:#3bafda;
+        text-decoration:none
+      }
+      a:focus,a:hover {
+        color:#4fc1e9;
+        text-decoration:none
+      }
+      a:focus {
+        outline:0
+      }
+      h1,h2,h3,h4,h5,h6 {
+        font-family:inherit;
+        font-weight:700;
+        line-height:1.1;
+        color:inherit
+      }
+      .center {
+        text-align: center;
+      }
+  body
+    main.container(role="main")
+      != yield
+    if environment == "production"
+      != partial("_shared/google_analytics")
