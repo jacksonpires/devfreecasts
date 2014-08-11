@@ -1,9 +1,0 @@
-h2.center Redirecting...
-script.
-  (function() {
-    setTimeout(function() {
-      var url = decodeURIComponent(window.location.hash.replace("#", "")) +  "#{utm[environment]}";
-      alert(url);
-      window.location.href = url;
-    }, 2500);
-  })();

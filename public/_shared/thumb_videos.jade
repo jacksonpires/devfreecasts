@@ -8,10 +8,10 @@ div.row
       each video in partner.videos
         div.col-sm-6.col-md-4
           div.thumbnail
-            a(href="#{root_url[environment]}redirect##{encodeURIComponent(video.url)}" title="#{video.title}")
+            a(href="#{video.url}" title="#{video.title}" onclick="ga('send', 'event', '#{subtitle} #{level[video.level]}', '#{video.title}');")
               img(src="#{root_url[environment]}images/#{partner.image || image}" class="img-rounded" width="250" height="120")
             div.caption
               h3.video-title #{video.title}
               p.video-description #{video.description}
               p.video-metadata Author: <a href="#{partner.site_url}" target="_blank">#{partner.site}</a><br>Language: <span class="label label-primary">#{partner.lang.toUpperCase()}</span> | Duration: <span class="label label-primary">#{video.duration}</span> | Level: <span class="label label-primary" title="#{level[video.level]}">#{video.level.toUpperCase()}</span>
-              p <a href="#{root_url[environment]}redirect##{encodeURIComponent(video.url)}" class="btn btn-primary btn-block" role="button"><i class="icon-play"></i>&nbsp;Watch</a>
+              p <a href="#{video.url}" class="btn btn-primary btn-block" role="button" onclick="ga('send', 'event', '#{subtitle} #{level[video.level]}', '#{video.title}');"><i class="icon-play"></i>&nbsp;Watch</a>
