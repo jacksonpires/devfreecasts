@@ -2,25 +2,27 @@
   "index": {
     "subtitle": "About",
     "partners": [
-      {"name": "Joel Hooks", "url": "https://egghead.io"},
-      {"name": "Hendrik Swanepoel", "url": "http://tagtree.tv"},
-      {"name": "Brandon Tilley", "url": "http://nodecasts.net"},
-      {"name": "Jean Carlos Nascimento", "url": "http://www.youtube.com/user/DevCastVideos"},
-      {"name": "Evaldo Junior", "url": "https://www.youtube.com/user/EvaldoJuniorBento"},
-      {"name": "Chris Mather", "url": "https://eventedmind.com"},
-      {"name": "Collis Ta’eed", "url": "http://tutsplus.com"},
-      {"name": "Leanna Pelham", "url": "https://knpuniversity.com"},
-      {"name": "Zeno Rocha", "url": "http://zenorocha.com"},
-      {"name": "Josh Adams", "url": "http://elixirsips.com"},
-      {"name": "Gabriel Pugliese", "url": "http://coderstv.com"},
-      {"name": "Brian Mann", "url": "http://www.backbonerails.com"},
-      {"name": "Avdi Grimm", "url": "http://www.rubytapas.com"},
-      {"name": "Henrique Lobo Weissmann", "url": "http://www.grailsbrasil.com.br"},
-      {"name": "Jom Wilson", "url": "https://www.youtube.com/channel/UC0yNbk3zJMvB_HAlf-2eEIw"},
-      {"name": "Dave Tomas", "url": "http://pragprog.com"},
-      {"name": "Drew Neil", "url": "http://vimcasts.org"},
-      {"name": "GopherCasts", "url": "https://gophercasts.io/"},
-      {"name": "Go Programming Language", "url": "http://golang.org/"}
+       {"name": "Joel Hooks", "url": "https://egghead.io"}
+      ,{"name": "Hendrik Swanepoel", "url": "http://tagtree.tv"}
+      ,{"name": "Brandon Tilley", "url": "http://nodecasts.net"}
+      ,{"name": "Jean Carlos Nascimento", "url": "http://www.youtube.com/user/DevCastVideos"}
+      ,{"name": "Evaldo Junior", "url": "https://www.youtube.com/user/EvaldoJuniorBento"}
+      ,{"name": "Chris Mather", "url": "https://eventedmind.com"}
+      ,{"name": "Collis Ta’eed", "url": "http://tutsplus.com"}
+      ,{"name": "Leanna Pelham", "url": "https://knpuniversity.com"}
+      ,{"name": "Zeno Rocha", "url": "http://zenorocha.com"}
+      ,{"name": "Josh Adams", "url": "http://elixirsips.com"}
+      ,{"name": "Gabriel Pugliese", "url": "http://coderstv.com"}
+      ,{"name": "Brian Mann", "url": "http://www.backbonerails.com"}
+      ,{"name": "Avdi Grimm", "url": "http://www.rubytapas.com"}
+      ,{"name": "Henrique Lobo Weissmann", "url": "http://www.grailsbrasil.com.br"}
+      ,{"name": "Jom Wilson", "url": "https://www.youtube.com/channel/UC0yNbk3zJMvB_HAlf-2eEIw"}
+      ,{"name": "Dave Tomas", "url": "http://pragprog.com"}
+      ,{"name": "Drew Neil", "url": "http://vimcasts.org"}
+      ,{"name": "GopherCasts", "url": "https://gophercasts.io/"}
+      ,{"name": "Go Programming Language", "url": "http://golang.org/"}
+      ,{"name": "Ben Scheirman", "url": "http://nsscreencast.com/"}
+      ,{"name": "WatchMeCode", "url": "https://sub.watchmecode.net/"}
     ] 
   }
 }
