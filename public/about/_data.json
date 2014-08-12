@@ -17,7 +17,10 @@
       {"name": "Avdi Grimm", "url": "http://www.rubytapas.com"},
       {"name": "Henrique Lobo Weissmann", "url": "http://www.grailsbrasil.com.br"},
       {"name": "Jom Wilson", "url": "https://www.youtube.com/channel/UC0yNbk3zJMvB_HAlf-2eEIw"},
-      {"name": "Dave Tomas", "url": "http://pragprog.com"}
+      {"name": "Dave Tomas", "url": "http://pragprog.com"},
+      {"name": "Drew Neil", "url": "http://vimcasts.org"},
+      {"name": "GopherCasts", "url": "https://gophercasts.io/"},
+      {"name": "Go Programming Language", "url": "http://golang.org/"}
     ] 
   }
 }

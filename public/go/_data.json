@@ -10,7 +10,7 @@
         "site_url": "https://www.youtube.com/user/gocoding",
         "image": "golang.jpg",
         "lang": "en",
-        "publish": false,
+        "publish": true,
         "videos": [
           {
             "title": "Writing, building, installing and testing Go code",
