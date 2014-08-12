@@ -49,7 +49,7 @@
         "site_url": "https://gophercasts.io",
         "image": "gophercasts.jpg",
         "lang": "en",
-        "publish": false,
+        "publish": true,
         "videos": [
           {
             "title": "Getting Started with Go",

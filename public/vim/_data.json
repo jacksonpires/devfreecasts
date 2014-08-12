@@ -1,0 +1,75 @@
+{
+  "index": {
+    "subtitle": "Vim",
+    "about": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.",
+    "site": "http://www.vim.org",
+    "image": "vim.jpg",
+    "partners": [
+      {
+        "site" : "VimCasts",
+        "site_url": "http://vimcasts.org",
+        "image": "vimcasts.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Show invisibles",
+            "description": "In this episode, I demonstrate how to customise the appearance of these characters by tweaking the listchars setting. I go on to show how to make these invisible characters blend in with your colortheme.",
+            "duration": "2:52",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/show-invisibles"
+          },
+          {
+            "title": "Tabs and spaces",
+            "description": "This episode explains the purpose of tabstop, softtabstop, shiftwidth and expandtab settings, and illustrates how Vim behaves using various combinations of these.",
+            "duration": "6:22",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/tabs-and-spaces/"
+          },
+          {
+            "title": "Whitespace preferences and filetypes",
+            "description": "Different file types may require particular whitespace settings. These preferences can be specified by hooking into the FileType event with an autocommand.",
+            "duration": "3:29",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/whitespace-preferences-and-filetypes/"
+          },
+          {
+            "title": "Tidying whitespaces",
+            "description": "This episode demonstrates a few techniques for tidying up whitespace. First, it looks at how to convert between tabs and spaces. Then it shows how to strip trailing whitespace, and finally, how to remove blank lines from a file.",
+            "duration": "4:33",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/tidying-whitespace/"
+          },
+          {
+            "title": "Indentation commands",
+            "description": "This episode covers the commands for shifting text left and right (< and >), and also goes over the auto indent command (=).",
+            "duration": "5:41",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/indentation-commands/"
+          },
+          {
+            "title": "Working with buffers",
+            "description": "Introducing the buffer list, and commands for switching between buffers. This episode also covers the concept of ‘hidden’ buffers, and shows how to deal with them.",
+            "duration": "5:32",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/working-with-buffers/"
+          },
+          {
+            "title": "Working with windows",
+            "description": "This episode demonstrates all the essentials of working with windows: opening, closing, resizing, moving between and rearranging them.",
+            "duration": "5:32",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/working-with-windows/"
+          },
+          {
+            "title": "Working with tabs",
+            "description": "This episode covers the essential commands for working with Vim’s tab pages: opening and closing, switching, and moving them.",
+            "duration": "3:17",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/working-with-tabs/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -20,7 +20,7 @@
     "platforms": ["nodejs", "meteor", 
                   "angularjs", "react", "backbone",
                   "javascript", "chrome-devtools",
-                  "go", "ruby", "elixir", "php", 
-                  "grails", "android"]
+                  "vim", "go", "ruby", "elixir", 
+                  "php", "grails", "android"]
   }
 }
