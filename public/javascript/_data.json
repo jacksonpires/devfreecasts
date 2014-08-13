@@ -66,6 +66,36 @@
             "url": "http://courses.tutsplus.com/courses/whats-coming-to-javascript/lessons/picking-the-ecmascript-6-environments"
           }
         ]
+      },
+      {
+        "site" : "Watchmecode",
+        "site_url": "https://sub.watchmecode.net",
+        "image": "watchmecode.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "SOLID JavaScript In A Wobbly World Wide Web",
+            "description": "In this episode, you’ll see the following SOLID principles covered and see how they apply to JavaScript.",
+            "duration": "44:03",
+            "level": "a",
+            "url": "https://sub.watchmecode.net/solid-javascript-presentation/"
+          },
+          {
+            "title": "AMD Build With Grunt And Rigger",
+            "description": "In this episode, you’ll see: UMDJS, Project Dependencies with NPM, Grunt-Rigger and AMD Build.",
+            "duration": "17:10",
+            "level": "a",
+            "url": "https://sub.watchmecode.net/amd-builds-with-grunt/"
+          },
+          {
+            "title": "The Jasmine Standalone Runner",
+            "description": "In this episode I will show you the basics of how to install and use the standalone version of the Jasmine testing framework, to write unit tests for your JavaScript applications.",
+            "duration": "17:12",
+            "level": "i",
+            "url": "https://sub.watchmecode.net/jasmine-standalone/"
+          }
+        ]
       }
     ]
   }

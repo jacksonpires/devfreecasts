@@ -67,6 +67,41 @@
             "duration": "3:17",
             "level": "b",
             "url": "http://vimcasts.org/episodes/working-with-tabs/"
+          },
+          {
+            "title": "Meet UltiSnips",
+            "description": "Snippets allow you to quickly insert predefined chunks of text into your document. The feature as I know it was first introduced in TextMate, but it has since been emulated by many other editors. For Vim users who want this functionality, the UltiSnips plugin is a great choice. Let’s start by looking at the basics.",
+            "duration": "5:43",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/meet-ultisnips/"
+          },
+          {
+            "title": "Operating on search matches using gn",
+            "description": "The gn command (introduced in Vim 7.4) makes it easy to operate on regions of text that match the current search pattern. It’s especially useful when used with a regex that matches text regions of variable length.",
+            "duration": "4:35",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/operating-on-search-matches-using-gn/"
+          },
+          {
+            "title": "Using Vim's paste mode with the system paste command",
+            "description": "When Vim is compiled without the +clipboard feature, we can still insert text from the clipboard using the system paste command (ctrl-v or cmd-v). This can produce strange effects, but we can avoid them by toggling the paste option each time we use the system paste command.",
+            "duration": "4:25",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/using-vims-paste-mode-with-the-system-paste-command/"
+          },
+          {
+            "title": "Search multiple files with :vimgrep",
+            "description": "vimgrep is Vim’s built-in command for searching across multiple files. It’s not so fast as external tools like ack and git-grep, but it has its uses. vimgrep uses Vim’s built-in regex engine, so you can reuse the patterns that work with Vim’s standard search command.",
+            "duration": "7:25",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/search-multiple-files-with-vimgrep/"
+          },
+          {
+            "title": "Profiling Vimscript performance",
+            "description": "Vim users are unforgiving of plugins that impair performance. Luckily, Vim provides built-in profiling tools that make it easy to diagnose performance issues. We’ll start by looking at how to profile the vimrc file, then move on to a real world scenario where profiling helped to identify and aleviate a performance bottleneck.",
+            "duration": "8:09",
+            "level": "b",
+            "url": "http://vimcasts.org/episodes/profiling-vimscript-performance/"
           }
         ]
       }

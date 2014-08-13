@@ -1,0 +1,82 @@
+{
+  "index": {
+    "subtitle": "iOS",
+    "about": "iOS is the world’s most advanced mobile operating system, continually redefining what people can do with a mobile device. Together, the iOS SDK and Xcode IDE make it easy for developers to create revolutionary mobile apps.",
+    "site": "https://developer.apple.com/technologies/ios",
+    "image": "ios.jpg",
+    "partners": [
+      {
+        "site" : "NSScreencast",
+        "site_url": "http://nsscreencast.com",
+        "image": "nsscreencast.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Objective-C Basics",
+            "description": "In this episode, I cover Objective-C the language. I cover the syntax of classes & methods, then go over how to work with objects using retain, release, and autorelease.",
+            "duration": "21:00",
+            "level": "b",
+            "url": "http://nsscreencast.com/episodes/1-objective-c-basics/play"
+          },
+          {
+            "title": "Diagnosing Memory Problems",
+            "description": "In this episode, I cover what happens if you make a mistake in your memory management. You'll see how the app behaves as well as how to find & fix these issues using Xcode & Instruments.",
+            "duration": "8:00",
+            "level": "i",
+            "url": "http://nsscreencast.com/episodes/2-diagnosing-memory-problems/play"
+          },
+          {
+            "title": "Serializing Data to Disk",
+            "description": "This episode will show you how to serialize common objects such as NSArray and NSDictionary to disk, as well as implementing custom object serialization using NSKeyedArchiver.",
+            "duration": "16:00",
+            "level": "i",
+            "url": "http://nsscreencast.com/episodes/7-serializing-data-to-disk/play"
+          },
+          {
+            "title": "New Objective-C Syntax",
+            "description": "The latest version of the LLVM compiler supports some excellent new syntax additions to the Objective-C language. In this episode, I cover what the new syntax is, how to use it, and a few caveats to look out for.",
+            "duration": "13:00",
+            "level": "i",
+            "url": "http://nsscreencast.com/episodes/27-new-objective-c-syntax/play"
+          },
+          {
+            "title": "Core Data Basics",
+            "description": "Core Data is Apple's framework for persisting data on Mac & iOS. It can be though of as an ORM, however it's probably a lot different than most ORMs you've used in the past.",
+            "duration": "22:00",
+            "level": "b",
+            "url": "http://nsscreencast.com/episodes/11-core-data-basics/play"
+          },
+          {
+            "title": "Importing into Core Data",
+            "description": "In this screencast I'll pull down data from an API, map the JSON to a Core Data Managed Object and import them in bulk on a background thread.",
+            "duration": "22:00",
+            "level": "i",
+            "url": "http://nsscreencast.com/episodes/12-importing-into-core-data/play"
+          },
+          {
+            "title": "Automatic Reference Counting",
+            "description": "In this episode, I'll show you how to convert your project to use Automatic Reference Counting (or ARC) to eliminate the need to use retain, release, autorelease, and dealloc in your Objective-C code!",
+            "duration": "10:00",
+            "level": "a",
+            "url": "http://nsscreencast.com/episodes/9-automatic-reference-counting/play"
+          },
+          {
+            "title": "Xcode 5 Autolayout Improvements",
+            "description": "This week we have another free bonus video on the improvements that Xcode 5 brings to Autolayout. As something that has been quite obnoxious to work with in the past, many people dismissed auto layout when it was introduced to iOS 6.",
+            "duration": "7:00",
+            "level": "i",
+            "url": "http://nsscreencast.com/episodes/87-xcode-5-autolayout-improvements/play"
+          },
+          {
+            "title": "Hello, iOS 7",
+            "description": "To celebrate the launch of iOS 7, here is a bonus free screencast covering a few of the concepts in iOS 7 such as the status bar behavior, tint color, and navigation bar transitions.",
+            "duration": "7:00",
+            "level": "b",
+            "url": "http://nsscreencast.com/episodes/85-hello-ios-7/play"
+          }
+        ]
+      }
+    ]
+  }
+}

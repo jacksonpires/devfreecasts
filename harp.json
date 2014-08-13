@@ -17,10 +17,11 @@
       "development": "?",
       "production": "?utm_source=devfreecasts&utm_medium=medium&utm_campaign=DevFreeCasts"
     },
-    "platforms": ["nodejs", "meteor", 
-                  "angularjs", "react", "backbone",
-                  "javascript", "chrome-devtools",
-                  "vim", "go", "ruby", "elixir", 
-                  "php", "grails", "android"]
+    "platforms": ["nodejs", "meteor", "angularjs", 
+                  "react", "backbone", "javascript",
+                  "go", "ruby", "php", 
+                  "elixir", "scala", "grails", 
+                  "vim", "ios","android", 
+                  "chrome-devtools"]
   }
 }
