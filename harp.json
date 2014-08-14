@@ -19,9 +19,9 @@
     },
     "platforms": ["nodejs", "meteor", "angularjs", 
                   "react", "backbone", "javascript",
-                  "go", "ruby", "php", 
+                  "grunt","go", "ruby", 
                   "elixir", "scala", "grails", 
                   "vim", "ios","android", 
-                  "chrome-devtools"]
+                  "chrome-devtools", "php"]
   }
 }

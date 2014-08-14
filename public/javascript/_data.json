@@ -41,6 +41,41 @@
             "duration": "1:33",
             "level": "i",
             "url": "https://egghead.io/lessons/core-javascript-introduction-to-lodash"
+          },
+          {
+            "title": "Intro to ES6 Traceur compiler",
+            "description": "ES6 is the next generation of javascript. You can use it today with the traceur compiler library. Also be sure to check out es6fiddle to start playing with ECMAscript 6 right now.",
+            "duration": "2:42",
+            "level": "b",
+            "url": "https://egghead.io/lessons/intro-to-es6-and-traceur-js"
+          },
+          {
+            "title": "ES6 Arrow function",
+            "description": "ECMAscript 6 introduces the 'arrow function' as a shortcut for creating anonymous functions with this scope bound.",
+            "duration": "2:57",
+            "level": "i",
+            "url": "https://egghead.io/lessons/arrow-function"
+          },
+          {
+            "title": "ES6 Array comprehensions",
+            "description": "With ECMAscript 6 you have access to powerful array comprehensions for generating new arrays from existing arrays based on criteria you specify.",
+            "duration": "2:28",
+            "level": "i",
+            "url": "https://egghead.io/lessons/ecmascript-6-array-comprehensions"
+          },
+          {
+            "title": "ES6 String templates",
+            "description": "ECMAscript 6 lets us use string templates to gain a lot more control over strings in JavaScript.",
+            "duration": "4:12",
+            "level": "i",
+            "url": "https://egghead.io/lessons/ecmascript-6-string-templates"
+          },
+          {
+            "title": "ES6 Generators",
+            "description": "Generators in ECMAscript 6 are first-class coroutines that produce encapsulated suspended execution contexts. Whew! Yield values and iterate over them until no more values exist in the generator. We'll talk more about practical use later.",
+            "duration": "5:28",
+            "level": "a",
+            "url": "https://egghead.io/lessons/ecmascript-6-generators"
           }
         ]
       },
