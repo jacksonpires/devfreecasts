@@ -47,6 +47,41 @@
             "duration": "6:54",
             "level": "i",
             "url": "http://courses.tutsplus.com/courses/object-oriented-design-in-php/lessons/isolating-global-state"
+          },
+          {
+            "title": "Introduction to PHP Testing",
+            "description": "Welcome to the PHP Testing Basics course, I'm Andrew Perkins and throughout this course I'll teach you the very basics of testing PHP web applications.",
+            "duration": "1:10",
+            "level": "b",
+            "url": "https://code.tutsplus.com/courses/php-testing-basics/lessons/introduction"
+          },
+          {
+            "title": "PHP Regular Testing",
+            "description": "Here we will examine the process of how someone may go about testing a PHP application by writing manual tests, after writing application-specific code. This is a good learning exercise because you get to start with something very easy, and it is still better than writing no tests at all.",
+            "duration": "10:25",
+            "level": "i",
+            "url": "https://code.tutsplus.com/courses/php-testing-basics/lessons/regular-testing"
+          },
+          {
+            "title": "PHPUnit",
+            "description": "In this lesson we’ll take a look at the PHPUnit testing framework. We’ll explore its features and basic installation instructions so that we can work with it in the next section.",
+            "duration": "2:58",
+            "level": "b",
+            "url": "https://code.tutsplus.com/courses/php-testing-basics/lessons/phpunit"
+          },
+          {
+            "title": "PHP Codeception",
+            "description": "In this lesson we’ll take a look at the Codeception testing framework. We’ll explore its features and basic installation instructions so that we can work with it in the next section.",
+            "duration": "3:02",
+            "level": "i",
+            "url": "https://code.tutsplus.com/courses/php-testing-basics/lessons/codeception"
+          },
+          {
+            "title": "PHP Behat",
+            "description": "In this lesson we’ll take a look at the Behat testing framework. The Behat testing framework uses stories to describe how your application should behave. We’ll explore its features and basic installation instructions so that we can work with it in the next section.",
+            "duration": "2:24",
+            "level": "i",
+            "url": "https://code.tutsplus.com/courses/php-testing-basics/lessons/behat"
           }
         ]
       },
