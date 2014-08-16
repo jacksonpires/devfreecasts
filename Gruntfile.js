@@ -25,8 +25,20 @@ module.exports = function(grunt) {
     // CSS Min ======================================
     cssmin: {
       combine: {
+        options: {
+          keepSpecialComments: 0
+        },
         files: {
           'www/assets/css/main.css': ['www/assets/css/main.css']
+        }
+      }
+    },
+
+    // JS Min ======================================
+    uglify: {
+      combine: {
+        files: {
+          'www/assets/js/main.js': ['www/assets/js/main.js']
         }
       }
     },
@@ -65,8 +77,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-env");
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   
-  grunt.registerTask("default",["env", "clean", "harp", "cssmin", "compress", "gh-pages"]);
+  grunt.registerTask("default",["env", "clean", "harp", 
+                                "cssmin", "uglify", "compress", 
+                                "gh-pages"]);
 
   grunt.registerTask("deploy", ["default"]);
 };
