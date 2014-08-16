@@ -6,6 +6,106 @@
     "image": "ios.jpg",
     "partners": [
       {
+        "site" : "Marcelo Simões",
+        "site_url": "https://www.youtube.com/user/mhgs11",
+        "image": "swift.jpg",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Swift Basics to Advanced - Part 1",
+            "description": "In this episode you will learn about Variables, Constants, Concatenations, Playground, Console and more things about Swift syntax.",
+            "duration": "5:53",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=8QUvQMoCq-Y&"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 2",
+            "description": "In this episode you will learn about variable types and casts.",
+            "duration": "10:23",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=IWqnT-j5cTE"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 3",
+            "description": "In this episode you will learn about type aliases, booleans and tuples.",
+            "duration": "4:57",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=yuLWfKLmNuA"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 4",
+            "description": "In this episode you will learn about optionals.",
+            "duration": "5:29",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=U3wEdTjUS38"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 5",
+            "description": "In this episode you will learn about assertion with assert command.",
+            "duration": "2:41",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=191N7g-wF3o"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 6",
+            "description": "In this episode you will learn about math operators.",
+            "duration": "9:36",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=DrOQhGDAGPI"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 7",
+            "description": "In this episode you will learn about string and chars manipulation.",
+            "duration": "7:27",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=EAv3nR8utcI"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 8",
+            "description": "In this episode you will learn how to use arrays.",
+            "duration": "6:18",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=azXJjHYLQNU"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 9",
+            "description": "In this episode you will learn how to handle with dictionaries.",
+            "duration": "6:35",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=mSG_ieUJVRI"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 10",
+            "description": "In this episode you will learn about control flows using (for / while / do-while) commands.",
+            "duration": "6:53",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=clDGGxBSvcQ"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 11",
+            "description": "In this episode you will learn about conditionals commands (if / else / switch / where / continue / break / fallthrough).",
+            "duration": "12:33",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=RfjLRahh3VA"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 12",
+            "description": "In this episode you will learn create and use functions (Part 1).",
+            "duration": "10:08",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=Cr_-4nEcP0o"
+          },
+          {
+            "title": "Swift Basics to Advanced - Part 13",
+            "description": "In this episode you will learn create and use functions (Part 1).",
+            "duration": "6:13",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=dkdZE-BT_Ks"
+          }
+        ] 
+      },
+      {
         "site" : "NSScreencast",
         "site_url": "http://nsscreencast.com",
         "image": "nsscreencast.jpg",
