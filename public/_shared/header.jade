@@ -2,21 +2,11 @@ header.header
   nav.navbar.navbar-static.navbar-inverse(role="navigation")
     div.container
       div.navbar-header
-        button.navbar-toggle(type="button" data-toggle="collapse" data-target="#navbar")
-          span.icon-bar
-          span.icon-bar
-          span.icon-bar
         a.navbar-brand(href="#{root_url[environment]}") 
           img(src="#{root_url[environment]}images/devfreecasts.png" width="223" height="35" alt="DevFreeCasts" title="DevFreeCasts")
-      div.collapse.nav.navbar-nav.navbar-right.navbar-collapse#navbar
+      div.collapse.nav.navbar-nav.navbar-right.navbar-collapse
         ul.nav.navbar-nav
-          li.dropdown
-            a.dropdown-toggle(href="#" data-toggle="dropdown") <i class="icon-play"></i>&nbsp;Platforms
-            ul.dropdown-menu(role="menu")
-              for platform in platforms
-                li 
-                  a(href="#{root_url[environment]}#{platform}") #{public[platform]._data.index.subtitle}
           li
-            a.navbar-link(href="https://docs.google.com/forms/d/1T1n-5WP1oV_tvvrIlbLfvpUXfLz-HQ4T57lR08Dt0wU/viewform" target="_blank") <i class="icon-plus"></i>&nbsp;Add FreeCasts
+            a.navbar-link(href="https://docs.google.com/forms/d/1T1n-5WP1oV_tvvrIlbLfvpUXfLz-HQ4T57lR08Dt0wU/viewform" target="_blank") <i class="icon-plus"></i>&nbsp;Add FreeCast
           li
             a.navbar-link(href="#{root_url[environment]}about") <i class="icon-user"></i>&nbsp;About
