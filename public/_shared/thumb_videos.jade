@@ -9,7 +9,7 @@ div.row
         div.col-sm-6.col-md-4
           div.thumbnail
             a(href="#{video.url}#{utm[environment]}" title="#{video.title}" onclick="ga('send', 'event', '#{subtitle}', '#{level[video.level]}', '#{video.title}');")
-              img(src="#{root_url[environment]}images/#{partner.image || image}" class="img-rounded" width="250" height="120")
+              img(src="#{root_url[environment]}assets/images/#{partner.image || image}" class="img-rounded" width="250" height="120")
             div.caption
               h3.video-title #{video.title}
               p.video-description #{video.description}

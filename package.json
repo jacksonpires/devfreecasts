@@ -10,6 +10,8 @@
     "grunt": "~0.4.5",
     "grunt-gh-pages": "~0.9.1",
     "grunt-harp": "~0.1.4",
-    "grunt-env": "~0.4.1"
+    "grunt-env": "~0.4.1",
+    "grunt-contrib-compress": "~0.10.0",
+    "grunt-contrib-cssmin": "~0.10.0"
   }
 }
