@@ -29,11 +29,48 @@
         ]
       },
       {
+        "site": "Gocasts",
+        "site_url": "https://gocasts.io/",
+        "image": "go.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Using Go for a simple HTTP Request",
+            "description": "How to do a simple HTTP Request using the net/http package in the Go standard library.",
+            "duration": "2:30",
+            "level": "b",
+            "url": "https://gocasts.io/gocasts/simple-http-get"
+          },
+          {
+            "title": "Using Go to fetch and parse JSON",
+            "description": "Using Go to fetch JSON from a webservice, and then parse it.",
+            "duration": "6:04",
+            "level": "i",
+            "url": "https://gocasts.io/gocasts/json-parsing"
+          },
+          {
+            "title": "Concurrency with buffered channels",
+            "description": "Using Channels with Go for communicating with different parts of a concurrent app, and how a buffered channel provides a blocking feature.",
+            "duration": "3:17",
+            "level": "a",
+            "url": "https://gocasts.io/gocasts/buffered-channels"
+          },
+          {
+            "title": "Watching multiple channels",
+            "description": "How to wait for multiple channels with Go.",
+            "duration": "3:26",
+            "level": "a",
+            "url": "https://gocasts.io/gocasts/watching-multiple-channels"
+          }
+        ]
+      },
+      {
         "site": "Russ Cox",
         "site_url": "https://www.youtube.com/user/rscgolang/videos",
         "image": "russcox.jpg",
         "lang": "en",
-        "publish": false,
+        "publish": true,
         "videos": [
           {
             "title": "A Tour of Go",
