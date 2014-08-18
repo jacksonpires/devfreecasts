@@ -9,7 +9,7 @@
         "site" : "Zaringa Tongy",
         "site_url": "https://www.youtube.com/user/zarigatongy/videos",
         "lang": "en",
-        "publish": false,
+        "publish": true,
         "videos": [
           {
             "title": "10 Reasons to choose Node.js",
