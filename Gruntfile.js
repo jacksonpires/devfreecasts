@@ -1,30 +1,43 @@
 module.exports = function(grunt) {
 
+  var harp = require('./harp.json');
+
+  var platform_files = harp.globals.platforms.map(function(platform) {
+    return {src: "public/" + platform + "/_data.json", dest: "www/api/" + platform + ".json"};
+  });
+
   var config = {
 
     // Setup ENV vars ================================
     env: {
-      dist : {
+      main : {
         NODE_ENV : 'production'
       }
     },
  
     // Clean folders ================================
     clean: {
-      dist: ["dist"]
+      main: ["www"]
     },
 
     // Harp Compile ================================
     harp: {
-      dist: {
+      main: {
         source: "./",
         dest: "www"
       }
     },
 
+    // Copy Sources ================================
+    copy: {
+      main: {
+        files: platform_files
+      }
+    },
+
     // CSS Min ======================================
     cssmin: {
-      combine: {
+      main: {
         options: {
           keepSpecialComments: 0
         },
@@ -36,7 +49,7 @@ module.exports = function(grunt) {
 
     // JS Min ======================================
     uglify: {
-      combine: {
+      main: {
         files: {
           'www/assets/js/main.js': ['www/assets/js/main.js']
         }
@@ -45,7 +58,7 @@ module.exports = function(grunt) {
 
     // Compress ======================================
     compress: {
-      dist: {
+      main: {
         options: {
           mode: 'gzip',
           level: 9,
@@ -71,17 +84,17 @@ module.exports = function(grunt) {
   };
 
   grunt.initConfig(config);
-  grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-gh-pages");
   grunt.loadNpmTasks("grunt-harp");
   grunt.loadNpmTasks("grunt-env");
+  grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   
-  grunt.registerTask("default",["env", "clean", "harp", 
-                                "cssmin", "uglify", "compress", 
-                                "gh-pages"]);
+  grunt.registerTask("default",["env", "clean", "harp", "copy", 
+                                "cssmin", "uglify", "compress"]);
 
-  grunt.registerTask("deploy", ["default"]);
+  grunt.registerTask("deploy", ["default", "gh-pages"]);
 };
