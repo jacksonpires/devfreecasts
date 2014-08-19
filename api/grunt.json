@@ -1,0 +1,71 @@
+{
+  "index": {
+    "subtitle": "Grunt",
+    "about": "Grunt is a task runner, with huge ecosystem of literally hundreds of plugins to choose it, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze.",
+    "site": "http://gruntjs.com",
+    "image": "grunt.jpg",
+    "partners": [
+      {
+        "site" : "DevCast",
+        "site_url": "http://www.youtube.com/user/DevCastVideos",
+        "image": "devcast.jpg",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Task Automation with GruntJS hangouts",
+            "description": "A hangouts about Grunt Task Automation.",
+            "duration": "2:01:30",
+            "level": "a",
+            "url": "https://www.youtube.com/watch?v=4oWPK4pdQwQ"
+          }
+        ]
+      },
+      {
+        "site" : "Hugo Bessa",
+        "site_url": "http://www.hugobessa.com.br",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Task Automation with GruntJS",
+            "description": "A presentation by Hugo Bessa about Grunt.js.",
+            "duration": "50:14",
+            "level": "i",
+            "url": "https://www.youtube.com/watch?v=LnLywobBB5U"
+          }
+        ]
+      },
+      {
+        "site" : "egghead",
+        "site_url": "https://egghead.io",
+        "image": "egghead.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Introduction to Grunt",
+            "description": "In this lesson you will install GruntJS and get up and running with your first task, initial configuration, and how to get Grunt methods auto-completing in WebStorm.",
+            "duration": "3:58",
+            "level": "b",
+            "url": "https://egghead.io/lessons/gruntjs-introduction-to-grunt"
+          },
+          {
+            "title": "Multitask",
+            "description": "Grunt Multitask allows you to write complex tasks that run multiple targets. In this lesson, John will show you how to use Multitask in your GruntJS builds.",
+            "duration": "1:49",
+            "level": "i",
+            "url": "https://egghead.io/lessons/gruntjs-multitask"
+          },
+          {
+            "title": "Minifying your output with Grunt uglify",
+            "description": "For production we want to use minified javascript to reduce the payload that is sent from the server. This can easily be accomplished with grunt-uglify.",
+            "duration": "2:23",
+            "level": "i",
+            "url": "https://egghead.io/lessons/grunt-minifying-your-output-with-grunt-uglify"
+          }
+        ]
+      }
+    ]
+  }
+}

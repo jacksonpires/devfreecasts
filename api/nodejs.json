@@ -1,0 +1,176 @@
+{
+  "index": {
+    "subtitle": "Node.js",
+    "about": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.",
+    "site": "http://nodejs.org",
+    "image": "nodejs.jpg",
+    "partners": [
+      {
+        "site" : "Zaringa Tongy",
+        "site_url": "https://www.youtube.com/user/zarigatongy/videos",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "10 Reasons to choose Node.js",
+            "description": "A quick video which shows 10 good reasons to choose Node.js as your new platform to build web applications",
+            "duration": "1:42",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=eg8P7Sy9d3k" 
+          }
+        ]
+      },
+      {
+        "site" : "Jim R. Wilson",
+        "site_url": "https://www.youtube.com/channel/UC0yNbk3zJMvB_HAlf-2eEIw/videos",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Building Distributed Systems with Node.js and ØMQ",
+            "description": "Jim R. Wilson, author of Node.js the Right Way, explains how to build distributed systems using ØMQ at a Node.js in the Wild meetup.",
+            "duration": "48:00",
+            "level": "a",
+            "url": "https://www.youtube.com/watch?v=zgDjaJdAB9c" 
+          }
+        ]
+      },
+      {
+        "site" : "egghead",
+        "site_url": "https://egghead.io",
+        "image": "egghead.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Migrate to Express 4",
+            "description": "This lesson will explain some of the main breaking changes between Express 3 and Express 4.",
+            "duration": "1:58",
+            "level": "a",
+            "url": "https://egghead.io/lessons/nodejs-migrate-to-express-4"
+          },
+          {
+            "title": "npm init",
+            "description": "The command npm init provides an interactive step-by-step interface for creating a package.json",
+            "duration": "1:29",
+            "level": "b",
+            "url": "https://egghead.io/lessons/nodejs-npm-init"
+          },
+          {
+            "title": "CommonJS Basics Introduction",
+            "description": "CoomonJS modules provide a clean syntax for importing dependencies. This lesson will take a look at the basics of using CommonJS modules.",
+            "duration": "3:18",
+            "level": "b",
+            "url": "https://egghead.io/lessons/nodejs-commonjs-basics-introduction"
+          },
+          {
+            "title": "What are CommonJS Modules?",
+            "description": "CommonJS modules provide a clean way to import dependencies in JavaScript.",
+            "duration": "3:02",
+            "level": "b",
+            "url": "https://egghead.io/lessons/nodejs-what-are-commonjs-modules"
+          },
+          {
+            "title": "Introduction to Browserify",
+            "description": "Browserify is a tool that brings node.js style development to the browser.",
+            "duration": "4:37",
+            "level": "b",
+            "url": "https://egghead.io/lessons/nodejs-introduction-to-browserify-part-1"
+          }
+        ]
+      },
+      {
+        "site" : "DevCast",
+        "site_url": "http://www.youtube.com/user/DevCastVideos",
+        "image": "devcast.jpg",
+        "lang": "pt-br",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Node.js + MongoDB",
+            "description": "A hangouts about using Node.js with MongoDB.",
+            "duration": "43:21",
+            "level": "i",
+            "url": "http://www.youtube.com/watch?v=0lTWkG_hH5M"
+          }
+        ]
+      },
+      {
+        "site" : "TagTree",
+        "site_url": "http://tagtree.tv",
+        "image": "tagtree.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Node Streams",
+            "description": "You've heard a lot about node streams, in this episode you get introduced to streams and see how to code up your own read, write, and transform stream.",
+            "duration": "8:28",
+            "level": "a",
+            "url": "http://tagtree.tv/intro-to-node-streams"
+          }
+        ]
+      },
+      {
+        "site" : "Tuts+",
+        "site_url": "http://courses.tutsplus.com/",
+        "lang": "en",
+        "image": "tutsplus.jpg",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Building NPM Packages",
+            "description": "The next step is to create the directory for our project. Also, we’ll need to set things up for browser testing, since our template will only support Node testing by default.",
+            "duration": "9:20",
+            "level": "i",
+            "url": "http://courses.tutsplus.com/courses/building-npm-packages/lessons/setting-up-the-project"
+          }
+        ]
+      },
+      {
+        "site" : "NodeCasts",
+        "site_url": "http://nodecasts.net",
+        "image": "nodecasts.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "Introduction to Node.js",
+            "description": "What is Node.js and why might you want to use it?",
+            "duration": "6:40",
+            "level": "b",
+            "url": "http://nodecasts.net/episodes/1-introduction-to-nodejs"
+          },
+          {
+            "title": "Node.js First Steps",
+            "description": "We'll learn out how to install Node.js, as well as how to maintain different Node versions using NVM. We'll also build a basic HTTP server.",
+            "duration": "7:30",
+            "level": "b",
+            "url": "http://nodecasts.net/episodes/2-nodejs-first-steps"
+          },
+          {
+            "title": "Modules",
+            "description": "Modules are the building blocks of Node.js applications. Find out how to use them and how to create your own.",
+            "duration": "7:25",
+            "level": "b",
+            "url": "http://nodecasts.net/episodes/3-modules"
+          },
+          {
+            "title": "Packages and NPM",
+            "description": "Packages allow programmers to share their modules with the world. Find out how to use npm to install packages and manage package dependencies.",
+            "duration": "8:53",
+            "level": "b",
+            "url": "http://nodecasts.net/episodes/4-packages-and-npm"
+          },
+          {
+            "title": "Thinking Asynchronously",
+            "description": "This talk is about some common patterns and pitfalls for working in an asynchronous environment.",
+            "duration": "12:31",
+            "level": "i",
+            "url": "http://nodecasts.net/episodes/5-thinking-asynchronously"
+          }
+        ]
+      }
+    ]
+  }
+}
