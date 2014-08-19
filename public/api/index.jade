@@ -1,4 +1,69 @@
 h2 API
 p This is a simple and static JSON api which provides datas about all screencasts from this website.
+h3 Resources
 for platform in platforms
   p <strong>GET:</strong>&nbsp;<a href="#{root_url[environment]}api/#{platform}.json">/api/#{platform}.json</a><br>Returns a JSON with partners and screencasts about <a href="#{root_url[environment]}#{platform}">#{platform}</a>.
+h3 Output
+p All resources returns a JSON content with these fields:
+table
+  thead
+    th Field
+    th Description
+    th Type
+  tbody
+    tr
+      td subtitle
+      td Platform name. Ex.: (Node.js, Meteor, Ruby).
+      td String
+    tr
+      td about
+      td A short description about the platform.
+      td String
+    tr
+      td site
+      td The official platform website url.
+      td String
+    tr
+      td image
+      td Platform logo url.
+      td String
+    tr
+      td partners
+      td List of partner screencast providers.
+      td Array
+    tr
+      td partners.site
+      td Partner website name.
+      td String
+    tr
+      td partners.site_url
+      td Partner website url.
+      td String
+    tr
+      td partners.lang
+      td Partner location. Ex.: (EN, PT-BR).
+      td String
+    tr
+      td partners.videos
+      td List of partner screencasts.
+      td Array
+    tr
+      td partners.videos.title
+      td Partner video title.
+      td String
+    tr
+      td partners.videos.description
+      td Partner video description.
+      td String
+    tr
+      td partners.videos.duration
+      td Partner video duration.
+      td String
+    tr
+      td partners.videos.level
+      td Partner video level. Ex.: (B - Basic, I - Intermediate, A - Advanced).
+      td String
+    tr
+      td partners.videos.url
+      td Partner video url.
+      td String
