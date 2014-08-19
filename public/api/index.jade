@@ -1,0 +1,4 @@
+h2 API
+p This is a simple and static JSON api which provides datas about all screencasts from this website.
+for platform in platforms
+  p <strong>GET:</strong>&nbsp;<a href="#{root_url[environment]}api/#{platform}.json">/api/#{platform}.json</a><br>Returns a JSON with partners and screencasts about <a href="#{root_url[environment]}#{platform}">#{platform}</a>.
