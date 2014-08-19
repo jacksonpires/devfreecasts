@@ -10,7 +10,10 @@ module.exports = function(grunt) {
 
     // Setup ENV vars ================================
     env: {
-      main : {
+      dev : {
+        NODE_ENV : 'development'
+      },
+      prod: {
         NODE_ENV : 'production'
       }
     },
@@ -93,8 +96,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-copy');
   
-  grunt.registerTask("default",["env", "clean", "harp", "copy", 
+  grunt.registerTask("default",["clean", "harp", "copy", 
                                 "cssmin", "uglify", "compress"]);
 
-  grunt.registerTask("deploy", ["default", "gh-pages"]);
+  grunt.registerTask("serve", ["env:dev", "default", "gh-pages"]);
+  grunt.registerTask("deploy", ["env:prod", "default", "gh-pages"]);
 };
