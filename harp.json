@@ -14,7 +14,7 @@
       "production": "http://caio-ribeiro-pereira.github.io/devfreecasts/"
     },
     "utm": {
-      "development": "?",
+      "development": "",
       "production": "?utm_source=devfreecasts&utm_medium=medium&utm_campaign=DevFreeCasts"
     },
     "platforms": ["nodejs", "meteor", "angularjs", 

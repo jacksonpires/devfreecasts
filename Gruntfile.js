@@ -2,6 +2,16 @@ module.exports = function(grunt) {
 
   var config = {
 
+    // Execute  ======================================    
+    execute: {
+      target: {
+        options: {
+          module: true
+        },
+        src: ['api.js']
+      }
+    },
+
     // ENV vars ======================================
     env: {
       dev : {
@@ -10,11 +20,6 @@ module.exports = function(grunt) {
       prod: {
         NODE_ENV : 'production'
       }
-    },
- 
-    // Clean folders =================================
-    clean: {
-      main: ["www"]
     },
 
     // Harp Compile ==================================
@@ -81,13 +86,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-gh-pages");
   grunt.loadNpmTasks("grunt-harp");
   grunt.loadNpmTasks("grunt-env");
-  grunt.loadNpmTasks("grunt-contrib-clean");
+  grunt.loadNpmTasks("grunt-execute");
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   
-  grunt.registerTask("default",["env:dev", "harp:dev"]);
+  grunt.registerTask("default",["env:dev", "harp:dev", "execute"]);
   grunt.registerTask("serve", ["default"]);
-  grunt.registerTask("deploy", ["env:prod", "clean", "harp:prod", 
-                                "cssmin", "uglify", "compress", "gh-pages"]);
+  grunt.registerTask("deploy", ["env:prod", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
 };
