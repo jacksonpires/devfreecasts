@@ -1,0 +1,17 @@
+{{#each partners}}
+  {{#each videos}}
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <a href="{{videos.url}" title="#{videos.title}" onclick="ga('send', 'event', '{{subtitle}}', '{{videos.level_title}}', '{{videos.title}}');">
+          <img src="{{videos.image}}" class="img-rounded" width="250" height="120">
+        </a>
+        <div class="caption">
+          <h3 class="video-title">{{videos.title}}</h3>
+          <p class="video-description">{{videos.description}}</p>
+          <p class="video-metadata">Author: <a href="{{partners.site_url}}" target="_blank">{{partners.site}}</a><br>Level: <span class="label label-primary" title="{{videos.level_title}}">{{videos.level}}</span> | Lang.: <span class="label label-primary">{{partners.lang}}</span> | Time: <span class="label label-primary">{{videos.duration}}</span>
+          <p><a href="{{videos.url}}" class="btn btn-primary btn-block" role="button" onclick="ga('send', 'event', '{{subtitle}}', '{{videos.level_title}}', '{{videos.title}}');"><i class="icon-play"></i>&nbsp;Watch</a>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+{{/each}}
