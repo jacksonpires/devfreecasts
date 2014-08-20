@@ -5,65 +5,64 @@ for platform in platforms
   p <strong>GET:</strong>&nbsp;<a href="#{root_url[environment]}api/#{platform}.json">/api/#{platform}.json</a><br>Returns a JSON with partners and screencasts about <a href="#{root_url[environment]}#{platform}">#{platform}</a>.
 h3 Output
 p All resources returns a JSON content with these fields:
-table
-  thead
-    th Field
-    th Description
-    th Type
-  tbody
-    tr
-      td subtitle
-      td Platform name. Ex.: (Node.js, Meteor, Ruby).
-      td String
-    tr
-      td about
-      td A short description about the platform.
-      td String
-    tr
-      td site
-      td The official platform website url.
-      td String
-    tr
-      td image
-      td Platform logo url.
-      td String
-    tr
-      td partners
-      td List of partner screencast providers.
-      td Array
-    tr
-      td partners.site
-      td Partner website name.
-      td String
-    tr
-      td partners.site_url
-      td Partner website url.
-      td String
-    tr
-      td partners.lang
-      td Partner location. Ex.: (EN, PT-BR).
-      td String
-    tr
-      td partners.videos
-      td List of partner screencasts.
-      td Array
-    tr
-      td partners.videos.title
-      td Partner video title.
-      td String
-    tr
-      td partners.videos.description
-      td Partner video description.
-      td String
-    tr
-      td partners.videos.duration
-      td Partner video duration.
-      td String
-    tr
-      td partners.videos.level
-      td Partner video level. Ex.: (B - Basic, I - Intermediate, A - Advanced).
-      td String
-    tr
-      td partners.videos.url
-      td Partner video url.
-      td String
+div.row
+  div.col-sm-4 <strong>Field</strong>
+  div.col-sm-4 <strong>Description</strong>
+  div.col-sm-4 <strong>Type</strong>
+div.row
+  div.col-sm-4 subtitle
+  div.col-sm-4 Platform name.<br>Ex.: (Node.js, Meteor, Ruby).
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 about
+  div.col-sm-4 A short description about the platform.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 site
+  div.col-sm-4 The official platform website url.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 image
+  div.col-sm-4 Platform logo url.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners
+  div.col-sm-4 List of partner screencast providers.
+  div.col-sm-4 Array
+div.row
+  div.col-sm-4 partners.site
+  div.col-sm-4 Partner website name.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.site_url
+  div.col-sm-4 Partner website url.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.lang
+  div.col-sm-4 Partner location.<br>Ex.: (EN, PT-BR).
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.videos
+  div.col-sm-4 List of partner screencasts.
+  div.col-sm-4 Array
+div.row
+  div.col-sm-4 partners.videos.title
+  div.col-sm-4 Partner video title.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.videos.description
+  div.col-sm-4 Partner video description.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.videos.duration
+  div.col-sm-4 Partner video duration.
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.videos.level
+  div.col-sm-4 Partner video level.<br>Ex.: (B - Basic, I - Intermediate, A - Advanced).
+  div.col-sm-4 String
+div.row
+  div.col-sm-4 partners.videos.url
+  div.col-sm-4 Partner video url.
+  div.col-sm-4 String
+br
