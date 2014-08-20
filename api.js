@@ -11,6 +11,9 @@ harp.globals.platforms.forEach(function(platform_name) {
   platform.partners.forEach(function(partner, index) {
     if (partner.publish) {
       partner.image && (partner.image = image_root_url + partner.image);
+      partner.videos.forEach(function(video, index) {
+        video.level = harp.globals.level[video.level];
+      });
     } else {
       platform.partners.splice(index, 1);
     }
