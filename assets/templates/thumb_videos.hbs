@@ -2,7 +2,7 @@
   {{#each videos}}
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <a href="{{videos.url}" title="#{videos.title}" onclick="ga('send', 'event', '{{subtitle}}', '{{videos.level_title}}', '{{videos.title}}');">
+        <a href="{{videos.url}}" title="{{videos.title}}" onclick="ga('send', 'event', '{{subtitle}}', '{{videos.level_title}}', '{{videos.title}}');">
           <img src="{{videos.image}}" class="img-rounded" width="250" height="120">
         </a>
         <div class="caption">
