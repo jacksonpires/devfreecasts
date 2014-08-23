@@ -1,5 +1,5 @@
 {
-  "name": "DevFreeCasts",
+  "name": "DevFreeCast",
   "description": "A huge collection of free screencasts for devs",
   "launch_path": "/devfreecasts/",
   "icons": {
@@ -9,5 +9,6 @@
     "name": "Caio Ribeiro Pereira",
     "url": "http://udgwebdev.com"
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "appcache_path": "/devfreecasts/cache.manifest"
 }
