@@ -10,5 +10,7 @@
     "url": "http://udgwebdev.com"
   },
   "default_locale": "en",
-  "appcache_path": "/devfreecasts/cache.manifest"
+  "appcache_path": "/devfreecasts/cache.manifest",
+  "fullscreen": "true",
+  "chrome": { "navigation": true }
 }
