@@ -2,13 +2,30 @@ module.exports = function(grunt) {
 
   var config = {
 
-    // Execute  ======================================    
+    // Execute  ======================================
     execute: {
       target: {
         options: {
           module: true
         },
         src: ['api.js']
+      }
+    },
+
+    // Handlebars template ===========================
+    handlebars: {
+      compile: {
+        options: {
+          namespace: "DEV",
+          processName: function(filePath) {
+            var template = filePath.split("/");
+            template = template[template.length - 1]
+            return template.split(".")[0]; 
+          }
+        },
+        files: {
+          "public/assets/js/templates.js": "public/assets/templates/*.hbs"
+        }
       }
     },
 
@@ -90,8 +107,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-handlebars');
   
-  grunt.registerTask("default",["env:dev", "harp:dev", "execute"]);
+  grunt.registerTask("default",["env:dev", "handlebars","harp:dev", "execute"]);
   grunt.registerTask("serve", ["default"]);
-  grunt.registerTask("deploy", ["env:prod", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
+  grunt.registerTask("deploy", ["env:prod", "handlebars", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
 };
