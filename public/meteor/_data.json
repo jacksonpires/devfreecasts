@@ -90,6 +90,41 @@
             "duration": "8:45",
             "level": "i",
             "url": "https://www.eventedmind.com/classes/how-to/meteor-how-to-publish-to-a-client-only-collection"
+          },
+          {
+            "title": "Reactive Properties",
+            "description": "JavaScript allows us to configure object properties. We can use this idea to create reactive properties in Meteor. In this video I'll show you how to create a reactive property method and turn it into a local package.",
+            "duration": "10:32",
+            "level": "i",
+            "url": "https://www.eventedmind.com/feed/reactive-properties"
+          },
+          {
+            "title": "Waiting on Subscriptions",
+            "description": "What does it mean to 'wait' on a subscription to be ready? In this video we'll explore the DDP 'ready' message and two ways of waiting on subscription data to be ready.",
+            "duration": "10:32",
+            "level": "a",
+            "url": "https://www.eventedmind.com/feed/waiting-on-subscriptions"
+          },
+          {
+            "title": "Using wait, waitOn and ready in Routes",
+            "description": "Confused about how to use waitOn, wait and the reactive ready method in your routes? In this video I'll show you how these work using the reactive WaitList.",
+            "duration": "11:23",
+            "level": "a",
+            "url": "https://www.eventedmind.com/feed/using-wait-waiton-and-ready-in-routes"
+          },
+          {
+            "title": "Synchronizing Method Writes",
+            "description": "Meteor synchronizes writes that happen on the client with the result we ultimately get back from the server. In this video you'll get some intuition about what this means. Then in the rest of the class we'll dive into the mechanics of how it works.",
+            "duration": "10:08",
+            "level": "a",
+            "url": "https://www.eventedmind.com/feed/synchronizing-method-writes"
+          },
+          {
+            "title": "Updating Meteor and Package Versions",
+            "description": "In this video we'll update a project to use Meteor 0.8.0 and iron-router 0.7.0.",
+            "duration": "5:16",
+            "level": "b",
+            "url": "https://www.eventedmind.com/feed/meteor-updating-meteor-and-package-versions"
           }
         ]
       }
