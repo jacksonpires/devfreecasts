@@ -1,9 +1,9 @@
 {
   "name": "DevFreeCasts",
   "description": "A huge collection of free screencasts for devs",
-  "launch_path": "/index.html",
+  "launch_path": "devfreecasts/",
   "icons": {
-    "128": "/assets/images/devfreecasts-128.png"
+    "128": "devfreecasts/assets/images/devfreecasts-128.png"
   },
   "developer": {
     "name": "Caio Ribeiro Pereira",

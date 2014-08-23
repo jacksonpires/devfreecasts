@@ -1,7 +1,8 @@
 CACHE MANIFEST
 
-favicon.ico
-assets/*
+devfreecasts/favicon.ico
+devfreecasts/assets/*
+devfreecasts/manifest.webapp
 
 NETWORK:
 *
