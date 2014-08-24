@@ -13,6 +13,13 @@
         "publish": true,
         "videos": [
           {
+            "title": "Underscore library for Go",
+            "description": "Toby presents his controversial Underscore library at golang-syd in July 2014.",
+            "duration": "10:42",
+            "level": "b",
+            "url": "https://www.youtube.com/watch?v=juHMdcTz5vM"
+          },
+          {
             "title": "Writing, building, installing and testing Go code",
             "description": "This screencast describes setting up a workspace (GOPATH), writing commands and packages, using the go tool to build and install, and using the testing package to write unit tests.",
             "duration": "5:03",
@@ -25,6 +32,13 @@
             "duration": "50:16",
             "level": "i",
             "url": "https://www.youtube.com/watch?v=ndmB0bj7eyw"
+          },
+          {
+            "title": "Writing your own Go compiler",
+            "description": "In this video, it'll be explaining the Go potential as a very portable language and reviewing the Go tools that make that such an exciting possibility to write a Go compiler.",
+            "duration": "32:21",
+            "level": "a",
+            "url": "https://www.youtube.com/watch?v=Qe8Dq7V3hXY"
           }
         ]
       },

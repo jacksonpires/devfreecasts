@@ -125,6 +125,20 @@
             "duration": "5:16",
             "level": "b",
             "url": "https://www.eventedmind.com/feed/meteor-updating-meteor-and-package-versions"
+          },
+          {
+            "title": "The UI.Each Component",
+            "description": "The each block helper renders a UI.Each Component. In this video we'll explore the UI.Each component's implementation and its new features and benefits.",
+            "duration": "11:01",
+            "level": "i",
+            "url": "https://www.eventedmind.com/feed/meteor-the-ui-each-component"
+          },
+          {
+            "title": "Make a Reactive Join in the UI",
+            "description": "How do you reactively join two collections in the user interface? In this video we'll explore two ways to join documents in the user interface. The first prevents reactivity. The second enables reactivity.",
+            "duration": "8:45",
+            "level": "a",
+            "url": "https://www.eventedmind.com/feed/meteor-make-a-reactive-join-in-the-ui"
           }
         ]
       }
