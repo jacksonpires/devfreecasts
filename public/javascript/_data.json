@@ -80,50 +80,6 @@
         ]
       },
       {
-        "site" : "Ode to Code",
-        "site_url": "http://odetocode.com",
-        "image": "odetocode.jpg",
-        "lang": "en",
-        "publish": true,
-        "videos": [
-          {
-            "title": "ES6 Arrow Functions",
-            "description": "Arrow functions are a short, succinct syntax for building functions in ES6. Not only do they make for more powerful functional code, they also help inside of callback by lexically binding this.",
-            "duration": "6:47",
-            "level": "i",
-            "url": "http://odetocode.com/videos/play/es6-arrow-functions"
-          },
-          {
-            "title": "ES6 Template Strings",
-            "description": "Template strings will make it easy to build strings, localize strings, and sanitize HTML. A marvelous addition to JavaScript!",
-            "duration": "3:08",
-            "level": "i",
-            "url": "http://odetocode.com/videos/play/es6-template-strings"
-          },
-          {
-            "title": "ES6 Rest Parameters",
-            "description": "Rest parameters make functions with a variable number of arguments easy, readable, and safe!",
-            "duration": "2:04",
-            "level": "b",
-            "url": "http://odetocode.com/videos/play/es6-rest-parameter"
-          },
-          {
-            "title": "ES6 Default Parameter Values",
-            "description": "There is a new syntax to provide default values for missing parameters.",
-            "duration": "2:48",
-            "level": "b",
-            "url": "http://odetocode.com/videos/play/es6-default-parameters"
-          },
-          {
-            "title": "ES6 Spread",
-            "description": "The spread is syntactic sugar we can use to 'spread' an array across function parameters, or into an array literal.",
-            "duration": "3:12",
-            "level": "i",
-            "url": "http://odetocode.com/videos/play/es6-spread-parameters"
-          }
-        ]
-      },
-      {
         "site" : "Tuts+",
         "site_url": "http://courses.tutsplus.com/",
         "lang": "en",
@@ -154,7 +110,7 @@
         "publish": true,
         "videos": [
           {
-            "title": "SOLID JavaScript In A Wobbly World Wide Web",
+            "title": "SOLID JS In A Wobbly World Wide Web",
             "description": "In this episode, you’ll see the following SOLID principles covered and see how they apply to JavaScript.",
             "duration": "44:03",
             "level": "a",
@@ -173,6 +129,50 @@
             "duration": "17:12",
             "level": "i",
             "url": "https://sub.watchmecode.net/jasmine-standalone/"
+          }
+        ]
+      },
+      {
+        "site" : "Ode to Code",
+        "site_url": "http://odetocode.com",
+        "image": "odetocode.jpg",
+        "lang": "en",
+        "publish": true,
+        "videos": [
+          {
+            "title": "ES6 Arrow Functions",
+            "description": "Arrow functions are a short, succinct syntax for building functions in ES6. Not only do they make for more powerful functional code, they also help inside of callback by lexically binding this.",
+            "duration": "6:47",
+            "level": "i",
+            "url": "http://odetocode.com/videos/play/es6-arrow-functions"
+          },
+          {
+            "title": "ES6 Template Strings",
+            "description": "Template strings will make it easy to build strings, localize strings, and sanitize HTML. A marvelous addition to JavaScript.",
+            "duration": "3:08",
+            "level": "i",
+            "url": "http://odetocode.com/videos/play/es6-template-strings"
+          },
+          {
+            "title": "ES6 Rest Parameters",
+            "description": "Rest parameters make functions with a variable number of arguments easy, readable, and safe.",
+            "duration": "2:04",
+            "level": "b",
+            "url": "http://odetocode.com/videos/play/es6-rest-parameter"
+          },
+          {
+            "title": "ES6 Default Parameter Values",
+            "description": "There is a new syntax to provide default values for missing parameters.",
+            "duration": "2:48",
+            "level": "b",
+            "url": "http://odetocode.com/videos/play/es6-default-parameters"
+          },
+          {
+            "title": "ES6 Spread",
+            "description": "The spread is syntactic sugar we can use to spread an array across function parameters, or into an array literal.",
+            "duration": "3:12",
+            "level": "i",
+            "url": "http://odetocode.com/videos/play/es6-spread-parameters"
           }
         ]
       }
