@@ -8,9 +8,59 @@
       {
         "site" : "Learn All The Nodes",
         "site_url": "http://www.learnallthenodes.com",
+        "image": "learnallthenodes.jpg",
         "lang": "en",
         "publish": false,
         "videos": [
+          {
+            "title": "How to structure a Node app",
+            "description": "This episode presents a solution, proposing an app structure that has successfully taken some apps from inception to production. We don't build a framework, per se; we just show a way of organizing our app so that everything has a place, and we know where to find what we're looking for.",
+            "duration": "",
+            "level": "b",
+            "url": "http://www.learnallthenodes.com/episodes/8-how-to-structure-a-node-app" 
+          },
+          {
+            "title": "NVM: Node Package Manager",
+            "description": "In this episode, I'm going to show you how I installed Node and a fantastic tool for managing different Node versions. Node is under active development, so new versions come out pretty regularly. With today's episode, you'll be able to experiment with the new ones with ease.",
+            "duration": "",
+            "level": "b",
+            "url": "http://www.learnallthenodes.com/episodes/31-nvm-node-version-manager" 
+          },
+          {
+            "title": "Auto-restart your server with this weird trick",
+            "description": "What if there were a way to have our server automatically pick up our changes without our manual effort? That's just the topic for this week's episode.",
+            "duration": "",
+            "level": "i",
+            "url": "http://www.learnallthenodes.com/episodes/30-auto-restart-your-dev-server-with-this-one-weird-trick" 
+          },
+          {
+            "title": "Authorization with Passport - Part 1",
+            "description": " Thus far with Passport we've created a sign-up form and submitted it to our server, and we responded appropriately based on whether or not our user sends us a valid email/password combination. And that's a good stepping stone, but it's not quite enough for an effective application. We need to prevent access to entire sections of our application based on whether or not the user is logged in.",
+            "duration": "",
+            "level": "i",
+            "url": "http://www.learnallthenodes.com/episodes/23-authorization-with-passport-part-1-ensuring-theyre-logged-in" 
+          },
+          {
+            "title": "Authorization with Passport - Part 2",
+            "description": "In our previous episodes with Passport we've set up a way to verify that a user is who the user claims to be. In this episode we're going to ensure that our users have the permissions they're claiming, and we do that with a package called 'authorized'.",
+            "duration": "",
+            "level": "i",
+            "url": "http://www.learnallthenodes.com/episodes/25-authorization-part-2-ensuring-they-have-permission" 
+          },
+          {
+            "title": "Testing in Node.js",
+            "description": "Mocha is a testing framework that provides us with a way to organize tests and group them together logically. Paired up with the `assert` module that's built right into Node, Mocha quite nearly takes care of all the framework we need to write tests. We won't get into testing our route handlers here, but this episode will give us the core that we need to start testing our domain layer.",
+            "duration": "",
+            "level": "i",
+            "url": "http://www.learnallthenodes.com/episodes/15-testing-in-nodejs" 
+          },
+          {
+            "title": "More advanced Jade",
+            "description": "We're going to round out or Jade knowledge with a look at its more advanced features. Have a list of things you need to iterate over? We've got you covered. Want to include Markdown in your template? There a filter for that. Do you want a style question to start a Twitter flame war over? It's all included in this very special double-digit episode.",
+            "duration": "",
+            "level": "a",
+            "url": "http://www.learnallthenodes.com/episodes/10-more-advanced-jade" 
+          }
         ]
       },
       {
