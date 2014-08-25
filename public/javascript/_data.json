@@ -1,7 +1,7 @@
 {
   "index": {
     "subtitle": "JavaScript",
-    "about": "JavaScript é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser como Node.js ou Apache CouchDB. É uma linguagem de script multi-paradigma, baseada em protótipo que é dinâmica, e suporta estilos de programação orientado a objetos, imperativo e funcional.",
+    "about": "JavaScript is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as Node.js or Apache CouchDB. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.",
     "site": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
     "image": "javascript.jpg",
     "partners": [
