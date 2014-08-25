@@ -22,6 +22,6 @@
                   "grunt","go", "ruby", 
                   "elixir", "scala", "grails", 
                   "vim", "ios","android", 
-                  "chrome-devtools", "php"]
+                  "chrome-devtools", "php", "java"]
   }
 }
