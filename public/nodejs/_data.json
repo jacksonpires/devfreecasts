@@ -6,6 +6,14 @@
     "image": "nodejs.jpg",
     "partners": [
       {
+        "site" : "Learn All The Nodes",
+        "site_url": "http://www.learnallthenodes.com",
+        "lang": "en",
+        "publish": false,
+        "videos": [
+        ]
+      },
+      {
         "site" : "Zaringa Tongy",
         "site_url": "https://www.youtube.com/user/zarigatongy/videos",
         "lang": "en",
