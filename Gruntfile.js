@@ -111,5 +111,5 @@ module.exports = function(grunt) {
   
   grunt.registerTask("default",["env:dev", "handlebars", "execute", "harp:dev"]);
   grunt.registerTask("serve", ["default"]);
-  grunt.registerTask("deploy", ["env:prod", "handlebars", "execute", "harp:prod", "cssmin", "uglify", "compress", "gh-pages"]);
+  grunt.registerTask("deploy", ["env:prod", "handlebars", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
 };
