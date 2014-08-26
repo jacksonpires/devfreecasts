@@ -3,4 +3,5 @@ section
   p #{about}<br>Site: <a href="#{site}" target="_blank">#{site}</a>
 h3 Videos
 div.row(data-platform-url="#{root_url[environment]}api/#{name}.json")
-  h3.center Loading...
+  div.loading
+    h3 Loading...
