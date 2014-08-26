@@ -13,10 +13,7 @@
       "development": "http://localhost:3000/",
       "production": "http://caio-ribeiro-pereira.github.io/devfreecasts/"
     },
-    "utm": {
-      "development": "",
-      "production": "?utm_source=devfreecasts&utm_medium=medium&utm_campaign=DevFreeCasts"
-    },
+    "utm": "utm_source=devfreecasts&utm_medium=medium&utm_campaign=DevFreeCasts",
     "platforms": ["nodejs", "meteor", "angularjs", 
                   "react", "backbone", "javascript",
                   "grunt","go", "ruby", 

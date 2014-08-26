@@ -20,7 +20,7 @@ module.exports = function() {
         partner.videos.forEach(function(video, index) {
           video.level_title = harp.globals.level[video.level.toLowerCase()];
           video.level = video.level.toUpperCase();
-          video.url = video.url + harp.globals.utm[process.env.NODE_ENV];
+          video.url = video.url + (video.url.indexOf("?") >= 0 ? "&" : "?") + harp.globals.utm;  
         });
       } else {
         platform.partners[index] = null;
