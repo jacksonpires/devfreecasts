@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     handlebars: {
       compile: {
         options: {
-          namespace: "DEV",
+          namespace: "DFC",
           processName: function(filePath) {
             var template = filePath.split("/");
             template = template[template.length - 1]
@@ -109,7 +109,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-handlebars');
   
-  grunt.registerTask("default",["env:dev", "handlebars","harp:dev", "execute"]);
+  grunt.registerTask("default",["env:dev", "handlebars", "execute", "harp:dev"]);
   grunt.registerTask("serve", ["default"]);
-  grunt.registerTask("deploy", ["env:prod", "handlebars", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
+  grunt.registerTask("deploy", ["env:prod", "handlebars", "execute", "harp:prod", "cssmin", "uglify", "compress", "gh-pages"]);
 };

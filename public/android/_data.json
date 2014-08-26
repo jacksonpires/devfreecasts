@@ -1,5 +1,6 @@
 {
   "index": {
+    "name": "android",
     "subtitle": "Android",
     "about": "Android runs on hundreds of millions of handheld devices around the world, and it now supports these exciting, new form-factors.",
     "site": "http://developer.android.com",

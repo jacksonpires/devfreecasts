@@ -18,13 +18,16 @@ module.exports = function() {
           partner.image = platform.image;
         }
         partner.videos.forEach(function(video, index) {
-          video.level_title = harp.globals.level[video.level];
+          video.level_title = harp.globals.level[video.level.toLowerCase()];
           video.level = video.level.toUpperCase();
           video.url = video.url + harp.globals.utm[process.env.NODE_ENV];
         });
       } else {
-        platform.partners.splice(index, 1);
+        platform.partners[index] = null;
       }
+    });
+    platform['partners'] = platform.partners.filter(function(element) {
+      return element != null;
     });
     var output = "./"+ output_path +"/api/"+ platform_name +".json";
     console.log(output);

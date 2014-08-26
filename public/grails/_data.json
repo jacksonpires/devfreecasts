@@ -1,5 +1,6 @@
 {
   "index": {
+    "name": "grails",
     "subtitle": "Grails",
     "about": "Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.",
     "site": "https://grails.org",
