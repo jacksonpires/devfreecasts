@@ -25,7 +25,6 @@ module.exports = function(grunt) {
       main: {
         src: [
           'public/assets/js/_handlebars.runtime.js',
-          'public/assets/js/_lodash.js',
           'public/assets/js/_templates.js',
           'public/assets/js/_main.js'
         ],

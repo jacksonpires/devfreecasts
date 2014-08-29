@@ -1,7 +1,11 @@
 (function() {
-  var toggle = document.querySelector(".navbar-toggle");
+  var toggle = document.querySelector(".navbar-toggle")
+    , collapse = document.querySelector(".navbar-collapse")
+    , platform = document.querySelector("[data-platform-url]")
+    , filterVideos = document.querySelectorAll("[data-dfc-videos]")
+  ;
+
   toggle.addEventListener("click", function() {
-    var collapse = document.querySelector(".navbar-collapse");
     if (collapse.classList.contains("hide")) {
       collapse.classList.remove("hide");
     } else {
@@ -9,21 +13,23 @@
     }
   });
   
-  var filterVideos = document.querySelectorAll("[data-dfc-videos]");
-  for (var i = 0, len = filterVideos.length; i < len; i++) {
+  for (var i = 0, len = filterVideos.length || 0; i < len; i++) {
     filterVideos[i].addEventListener("click", function(e) {
-      var data = JSON.parse(localStorage.getItem('devfreecasts'));
-      var level = e.target.getAttribute("data-dfc-videos");
-      var videos = true;
+      var data = JSON.parse(localStorage.getItem('devfreecasts'))
+        , level = e.target.getAttribute("data-dfc-videos")
+        , hasVideos = true
+      ;
       if (level) {
-        videos = 0;
-        _.forEach(data.partners, function(partner) {
-          partner.videos = _.filter(partner.videos, {"level": level});
-          videos += _.size(partner.videos);
+        var videos = 0;
+        data.partners.forEach(function(partner) {
+          partner.videos = partner.videos.filter(function(video) {
+            return video.level == level;
+          });
+          videos += partner.videos.length;
         });
+        hasVideos = videos > 0;
       }
-      var platform = document.querySelector("[data-platform-url]");
-      if (videos) {
+      if (hasVideos) {
         platform.innerHTML = DFC.thumb_videos(data);
       } else {
         platform.innerHTML = "<div class='result-status'><h3>No videos was found here.</h3></div>";
@@ -31,8 +37,7 @@
     });
   }
 
-  var loadTemplate = function() {
-    var platform = document.querySelector("[data-platform-url]");
+  var renderPlatform = function() {
     if (platform) {
       var url = platform.getAttribute("data-platform-url");
       request = new XMLHttpRequest();
@@ -49,7 +54,7 @@
       request.send();
     }
   };
-  loadTemplate();
 
+  renderPlatform();
 
 })();

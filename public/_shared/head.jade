@@ -25,3 +25,7 @@ meta(name="twitter:image" content="#{root_url[environment]}assets/images/devfree
 link(rel="icon" href="#{root_url[environment]}favicon.ico" type="image/x-icon")
 link(rel="stylesheet" href="#{root_url[environment]}assets/css/main.css")
 link(href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css")
+!= "<!--[if lt IE 8]>"
+  script(src="#{root_url[environment]}assets/js/aightjs.min.js")
+  script(src="#{root_url[environment]}assets/js/html5shiv.min.js")
+!= "<![endif]-->"

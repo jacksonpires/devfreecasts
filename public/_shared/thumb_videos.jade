@@ -4,13 +4,17 @@ section
 h3 Videos
 div.row
   div.col-sm-3
-    button(class="btn btn-block btn-primary", data-dfc-videos="") All videos
+    button(class="btn btn-block btn-primary", data-dfc-videos="") <i class="icon-video"></i>&nbsp;All videos
+    br
   div.col-sm-3
-    button(class="btn btn-block btn-primary", data-dfc-videos="B") Basic
+    button(class="btn btn-block btn-primary", data-dfc-videos="B") <i class="icon-video"></i>&nbsp;Basic videos
+    br
   div.col-sm-3
-    button(class="btn btn-block btn-primary", data-dfc-videos="I") Intermediate
+    button(class="btn btn-block btn-primary", data-dfc-videos="I") <i class="icon-video"></i>&nbsp;Intermediate videos
+    br
   div.col-sm-3
-    button(class="btn btn-block btn-primary", data-dfc-videos="A") Advanced
+    button(class="btn btn-block btn-primary", data-dfc-videos="A") <i class="icon-video"></i>&nbsp;Advanced videos
+    br
 hr
 div.row(data-platform-url="#{root_url[environment]}api/#{name}.json")
   div.result-status
