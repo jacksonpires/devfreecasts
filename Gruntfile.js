@@ -2,6 +2,11 @@ module.exports = function(grunt) {
 
   var config = {
 
+    // Clean folders =================================
+    clean: {
+      www: ['www']
+    },
+
     // Execute  ======================================
     execute: {
       target: {
@@ -9,6 +14,22 @@ module.exports = function(grunt) {
           module: true
         },
         src: ['api.js']
+      }
+    },
+
+    // Concat ========================================
+    concat: {
+      options: {
+        separator: ";"
+      },
+      main: {
+        src: [
+          'public/assets/js/_handlebars.runtime.js',
+          'public/assets/js/_lodash.js',
+          'public/assets/js/_templates.js',
+          'public/assets/js/_main.js'
+        ],
+        dest: "public/assets/js/main.js"
       }
     },
 
@@ -24,7 +45,7 @@ module.exports = function(grunt) {
           }
         },
         files: {
-          "public/assets/js/templates.js": "public/assets/templates/*.hbs"
+          "public/assets/js/_templates.js": "public/assets/templates/*.hbs"
         }
       }
     },
@@ -67,7 +88,7 @@ module.exports = function(grunt) {
     uglify: {
       main: {
         files: {
-          'www/assets/js/main.js': ['www/assets/js/main.js']
+          'www/assets/js/main.js': ['public/assets/js/main.js']
         }
       }
     },
@@ -107,9 +128,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-handlebars');
   
-  grunt.registerTask("default",["env:dev", "handlebars", "execute", "harp:dev"]);
+  grunt.registerTask("default",["clean", "env:dev", "handlebars", "execute", "concat", "harp:dev"]);
   grunt.registerTask("serve", ["default"]);
-  grunt.registerTask("deploy", ["env:prod", "handlebars", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
+  grunt.registerTask("deploy", ["clean", "env:prod", "handlebars", "concat", "harp:prod", "execute", "cssmin", "uglify", "compress", "gh-pages"]);
 };

@@ -2,6 +2,16 @@ h2 #{subtitle}
 section
   p #{about}<br>Site: <a href="#{site}" target="_blank">#{site}</a>
 h3 Videos
+div.row
+  div.col-sm-3
+    button(class="btn btn-block btn-primary", data-dfc-videos="") All videos
+  div.col-sm-3
+    button(class="btn btn-block btn-primary", data-dfc-videos="B") Basic
+  div.col-sm-3
+    button(class="btn btn-block btn-primary", data-dfc-videos="I") Intermediate
+  div.col-sm-3
+    button(class="btn btn-block btn-primary", data-dfc-videos="A") Advanced
+hr
 div.row(data-platform-url="#{root_url[environment]}api/#{name}.json")
-  div.loading
+  div.result-status
     h3 Loading...

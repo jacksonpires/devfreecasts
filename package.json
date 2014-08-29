@@ -13,6 +13,8 @@
     "grunt-contrib-cssmin": "~0.10.0",
     "grunt-contrib-uglify": "~0.5.1",
     "grunt-execute": "~0.2.2",
-    "grunt-contrib-handlebars": "~0.8.0"
+    "grunt-contrib-handlebars": "~0.8.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-clean": "~0.6.0"
   }
 }
